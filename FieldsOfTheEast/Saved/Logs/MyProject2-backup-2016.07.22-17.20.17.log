@@ -1,0 +1,1514 @@
+﻿Log file open, 07/21/16 17:37:27
+LogInit:Display: Running engine for game: MyProject2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-753911677) SRandInit(-753911675).
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.069365
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: F:/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.21-14.37.27:894][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.21-14.37.27:894][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.21-14.37.27:917][  0]LogInit: Computer: NOWAIFUNOLAIFU
+[2016.07.21-14.37.27:918][  0]LogInit: User: Alexander
+[2016.07.21-14.37.27:918][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.07.21-14.37.27:918][  0]LogInit: High frequency timer resolution =3.433388 MHz
+[2016.07.21-14.37.27:918][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.07.21-14.37.27:918][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.21-14.37.27:918][  0]LogMemory: Process Physical Memory: 187.88 MB used, 187.88 MB peak
+[2016.07.21-14.37.27:918][  0]LogMemory: Process Virtual Memory: 194.75 MB used, 194.75 MB peak
+[2016.07.21-14.37.27:918][  0]LogMemory: Physical Memory: 3721.91 MB used, 8174.12 MB total
+[2016.07.21-14.37.27:918][  0]LogMemory: Virtual Memory: 543.39 MB used, 134217728.00 MB total
+[2016.07.21-14.37.27:966][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.21-14.37.28:439][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.21-14.37.28:466][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.07.21-14.37.28:466][  0]LogD3D11RHI:       1965/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.07.21-14.37.28:467][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.21-14.37.28:467][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.07.21-14.37.28:467][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.21-14.37.28:472][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.21-14.37.28:473][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2016.07.21-14.37.28:473][  0]LogWindows: EnumDisplayDevices:
+[2016.07.21-14.37.28:473][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2016.07.21-14.37.28:473][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.07.21-14.37.28:473][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.07.21-14.37.28:473][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.07.21-14.37.28:473][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.07.21-14.37.28:473][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.07.21-14.37.28:473][  0]LogD3D11RHI:   Driver Version: 368.81 (internal:10.18.13.6881, unified:368.81)
+[2016.07.21-14.37.28:473][  0]LogD3D11RHI:      Driver Date: 7-10-2016
+[2016.07.21-14.37.28:473][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.21-14.37.28:491][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.21-14.37.28:509][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.07.21-14.37.28:509][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../UE Projects/MyProject2/Intermediate/Shaders/WorkingDirectory/5904/).
+[2016.07.21-14.37.28:509][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ALEXAN~1/AppData/Local/Temp/UnrealShaderWorkingDir/22F4F0CA4B9D89F5207C4496D4789594/'.
+[2016.07.21-14.37.28:509][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.21-14.37.29:808][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.21-14.37.29:820][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.21-14.37.29:831][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.21-14.37.29:843][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.21-14.37.29:854][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.21-14.37.29:865][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.21-14.37.29:875][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.21-14.37.29:885][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.21-14.37.29:895][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.21-14.37.29:905][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.21-14.37.29:915][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.21-14.37.29:937][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.21-14.37.29:937][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.21-14.37.29:938][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.21-14.37.29:962][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.21-14.37.29:972][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.21-14.37.29:982][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.21-14.37.29:992][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.21-14.37.30:002][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.21-14.37.30:002][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.21-14.37.30:078][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.21-14.37.30:340][  0]LogDerivedDataCache: Loaded boot cache 0.26s 49MB C:/Users/Alexander/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.21-14.37.30:341][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alexander/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.07.21-14.37.30:341][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE Projects/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.21-14.37.30:341][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.21-14.37.30:341][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE Projects/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.21-14.37.30:341][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.21-14.37.30:362][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.21-14.37.30:375][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alexander/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.21-14.37.30:633][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.21-14.37.30:634][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.21-14.37.30:859][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.21-14.37.30:859][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.21-14.37.30:859][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.21-14.37.31:282][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2016.07.21-14.37.31:304][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.018310 seconds
+[2016.07.21-14.37.31:312][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.07.21-14.37.31:312][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.07.21-14.37.31:312][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.21-14.37.31:325][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.21-14.37.31:639][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.21-14.37.31:639][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.21-14.37.32:521][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.21-14.37.32:746][  0]SourceControl: Info Source control is disabled
+[2016.07.21-14.37.32:748][  0]SourceControl: Info Source control is disabled
+[2016.07.21-14.37.32:756][  0]SourceControl: Info Source control is disabled
+[2016.07.21-14.37.32:763][  0]SourceControl: Info Source control is disabled
+[2016.07.21-14.37.32:991][  0]LogEngine: Initializing Engine...
+[2016.07.21-14.37.32:992][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.21-14.37.32:992][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.21-14.37.33:182][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.21-14.37.33:191][  0]LogInit: XAudio2 using 'PHILIPS FTV-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.21-14.37.33:197][  0]LogInit: FAudioDevice initialized.
+[2016.07.21-14.37.33:243][  0]LogDerivedDataCache: Saved boot cache 0.05s 48MB C:/Users/Alexander/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.21-14.37.33:261][  0]LogInit: Texture streaming: Enabled
+[2016.07.21-14.37.33:282][  0]LogInit: Transaction tracking system initialized
+[2016.07.21-14.37.33:303][  0]BlueprintLog: New page: Editor Load
+[2016.07.21-14.37.33:372][  0]LocalizationService: Info Localization service is disabled
+[2016.07.21-14.37.33:430][  0]LogConsoleResponse:Display: 
+[2016.07.21-14.37.33:567][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.21-14.37.33:567][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.21-14.37.33:672][  0]LogFileCache: Scanning file cache for directory 'F:/Epic Games/UE Projects/MyProject2/Content/' took 0.01s
+[2016.07.21-14.37.33:672][  0]SourceControl: Info Source control is disabled
+[2016.07.21-14.37.33:672][  0]Cmd: MAP LOAD FILE="../../../../UE Projects/MyProject2/Content/ThirdPersonBP/Blueprints/Sketch.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.21-14.37.33:719][  0]LightingResults: New page: Lighting Build
+[2016.07.21-14.37.33:721][  0]MapCheck: New page: Map Check
+[2016.07.21-14.37.33:721][  0]LightingResults: New page: Lighting Build
+[2016.07.21-14.37.34:563][  0]LogAIModule: Creating AISystem for world Sketch
+[2016.07.21-14.37.34:643][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.21-14.37.34:644][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.21-14.37.34:683][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.692ms to complete.
+[2016.07.21-14.37.34:683][  0]LogFileHelpers: Loading map 'Sketch' took 1.010
+[2016.07.21-14.37.34:920][  0]LogCollectionManager: Loaded 0 collections in 0.001635 seconds
+[2016.07.21-14.37.34:960][  0]LogFileCache: Scanning file cache for directory 'F:/Epic Games/UE Projects/MyProject2/Saved/Collections/' took 0.01s
+[2016.07.21-14.37.34:960][  0]LogFileCache: Scanning file cache for directory 'F:/Epic Games/UE Projects/MyProject2/Content/Developers/Alexander/Collections/' took 0.01s
+[2016.07.21-14.37.34:960][  0]LogFileCache: Scanning file cache for directory 'F:/Epic Games/UE Projects/MyProject2/Content/Collections/' took 0.01s
+[2016.07.21-14.37.34:960][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.07.21-14.37.34:972][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2047 classes and 369 folders.
+[2016.07.21-14.37.34:976][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.21-14.37.34:976][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.21-14.37.34:977][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.07.21-14.37.34:981][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.07.21-14.37.35:039][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.07.21-14.37.35:043][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.07.21-14.37.35:064][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.21-14.37.35:069][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.21-14.37.35:095][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.07.21-14.37.35:095][  0]LogLoad: Full Startup: 8.12 seconds (BP compile: 0.04 seconds)
+[2016.07.21-14.37.35:095][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.07.21-14.37.35:436][  0]LogOcInput: OculusInput pre-init called
+[2016.07.21-14.37.35:477][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.21-14.37.35:670][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.07.21-14.37.35:773][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.07.21-14.37.36:129][  2]LogAssetRegistry: Asset discovery search completed in 4.8691 seconds
+[2016.07.21-14.37.36:129][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.21-14.37.36:129][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.07.21-14.37.52:966][896]LogEditorViewport: Clicking on Actor (LMB): CullDistanceVolume (CullDistanceVolume)
+[2016.07.21-14.38.06:284][385]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.21-14.38.06:734][403]Cmd: SELECT NONE
+[2016.07.21-14.38.33:511][245]LogEditorViewport: Clicking on Actor (LMB): CullDistanceVolume (CullDistanceVolume)
+[2016.07.21-14.39.01:471][199]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.21-14.39.02:371][257]Cmd: SELECT NONE
+[2016.07.21-14.42.18:303][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.21-14.42.18:303][912]PIE: New page: PIE session: Sketch (Jul 21, 2016, 7:42:18 PM)
+[2016.07.21-14.42.18:303][912]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Blueprints/UEDPIE_0_Sketch
+[2016.07.21-14.42.18:355][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051726s)
+[2016.07.21-14.42.18:357][912]LogAIModule: Creating AISystem for world Sketch
+[2016.07.21-14.42.18:357][912]LogPlayLevel: PIE: World Init took: (0.002237s)
+[2016.07.21-14.42.18:357][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Blueprints/Sketch.Sketch to /Game/ThirdPersonBP/Blueprints/UEDPIE_0_Sketch.Sketch (0.054260s)
+[2016.07.21-14.42.18:391][912]LogInit: XAudio2 using 'PHILIPS FTV-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.21-14.42.18:396][912]LogInit: FAudioDevice initialized.
+[2016.07.21-14.42.18:659][912]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.21-14.42.18:689][912]LogWorld: Bringing World /Game/ThirdPersonBP/Blueprints/UEDPIE_0_Sketch.Sketch up for play (max tick rate 0) at 2016.07.21-17.42.18
+[2016.07.21-14.42.18:691][912]LogWorld: Bringing up level for play took: 0.030620
+[2016.07.21-14.42.18:695][912]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2016.07.21-14.42.18:698][912]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Blueprints/UEDPIE_0_Sketch 0.716
+[2016.07.21-14.50.01:615][ 78]LogSavePackage: Save=712.86ms
+[2016.07.21-14.50.01:615][ 78]LogSavePackage: Moving '../../../../UE Projects/MyProject2/Saved/Sketch_Auto1DB2132714D29E58DB6E2AEA48E3E3E94.tmp' to '../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto1.umap'
+[2016.07.21-14.50.01:616][ 78]LogSavePackage:Display: Finished SavePackage ../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto1.umap
+[2016.07.21-14.50.01:631][ 78]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Blueprints/Sketch' took 0.800
+[2016.07.21-14.50.01:631][ 78]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.800
+[2016.07.21-14.54.08:297][493]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.07.21-14.54.08:369][493]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.07.21-15.00.02:426][372]LogTexture:Display: Building textures: Texture2D_209 (BGRA8)
+[2016.07.21-15.00.02:426][372]LogTexture:Display: Building textures: Texture2D_210 (BGRA8)
+[2016.07.21-15.00.02:432][372]LogTexture:Display: Building textures: Texture2D_203 (BGRA8)
+[2016.07.21-15.00.02:443][372]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2016.07.21-15.00.02:453][372]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2016.07.21-15.00.02:462][372]LogTexture:Display: Building textures: Texture2D_204 (BGRA8)
+[2016.07.21-15.00.02:462][372]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.07.21-15.00.02:467][372]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.07.21-15.00.02:467][372]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.07.21-15.00.02:468][372]LogTexture:Display: Building textures: Texture2D_205 (BGRA8)
+[2016.07.21-15.00.02:468][372]LogTexture:Display: Building textures: Texture2D_206 (BGRA8)
+[2016.07.21-15.00.02:469][372]LogTexture:Display: Building textures: Texture2D_207 (BGRA8)
+[2016.07.21-15.00.02:476][372]LogTexture:Display: Building textures: Texture2D_275 (BGRA8)
+[2016.07.21-15.00.02:477][372]LogTexture:Display: Building textures: Texture2D_278 (BGRA8)
+[2016.07.21-15.00.02:489][372]LogTexture:Display: Building textures: Texture2D_279 (BGRA8)
+[2016.07.21-15.00.02:490][372]LogTexture:Display: Building textures: Texture2D_280 (BGRA8)
+[2016.07.21-15.00.02:490][372]LogTexture:Display: Building textures: Texture2D_283 (BGRA8)
+[2016.07.21-15.00.02:496][372]LogTexture:Display: Building textures: Texture2D_196 (BGRA8)
+[2016.07.21-15.00.02:496][372]LogTexture:Display: Building textures: Texture2D_295 (BGRA8)
+[2016.07.21-15.00.02:497][372]LogTexture:Display: Building textures: Texture2D_303 (BGRA8)
+[2016.07.21-15.00.02:511][372]LogTexture:Display: Building textures: Texture2D_211 (BGRA8)
+[2016.07.21-15.00.02:511][372]LogTexture:Display: Building textures: Texture2D_197 (BGRA8)
+[2016.07.21-15.00.02:511][372]LogTexture:Display: Building textures: Texture2D_304 (BGRA8)
+[2016.07.21-15.00.02:512][372]LogTexture:Display: Building textures: Texture2D_306 (BGRA8)
+[2016.07.21-15.00.02:512][372]LogTexture:Display: Building textures: Texture2D_307 (BGRA8)
+[2016.07.21-15.00.02:512][372]LogTexture:Display: Building textures: Texture2D_311 (BGRA8)
+[2016.07.21-15.00.02:513][372]LogTexture:Display: Building textures: Texture2D_198 (BGRA8)
+[2016.07.21-15.00.02:513][372]LogTexture:Display: Building textures: Texture2D_199 (BGRA8)
+[2016.07.21-15.00.02:513][372]LogTexture:Display: Building textures: Texture2D_188 (BGRA8)
+[2016.07.21-15.00.02:518][372]LogTexture:Display: Building textures: Texture2D_189 (BGRA8)
+[2016.07.21-15.00.02:518][372]LogTexture:Display: Building textures: Texture2D_190 (BGRA8)
+[2016.07.21-15.00.02:518][372]LogTexture:Display: Building textures: Texture2D_212 (BGRA8)
+[2016.07.21-15.00.02:519][372]LogTexture:Display: Building textures: Texture2D_191 (BGRA8)
+[2016.07.21-15.00.02:519][372]LogTexture:Display: Building textures: Texture2D_213 (BGRA8)
+[2016.07.21-15.00.02:538][372]LogTexture:Display: Building textures: Texture2D_149 (BGRA8)
+[2016.07.21-15.00.02:538][372]LogTexture:Display: Building textures: Texture2D_151 (BGRA8)
+[2016.07.21-15.00.02:552][372]LogTexture:Display: Building textures: Texture2D_214 (BGRA8)
+[2016.07.21-15.00.02:553][372]LogTexture:Display: Building textures: Texture2D_141 (BGRA8)
+[2016.07.21-15.00.02:564][372]LogTexture:Display: Building textures: Texture2D_142 (BGRA8)
+[2016.07.21-15.00.02:564][372]LogTexture:Display: Building textures: Texture2D_161 (BGRA8)
+[2016.07.21-15.00.02:565][372]LogTexture:Display: Building textures: Texture2D_162 (BGRA8)
+[2016.07.21-15.00.02:565][372]LogTexture:Display: Building textures: Texture2D_164 (BGRA8)
+[2016.07.21-15.00.02:566][372]LogTexture:Display: Building textures: Texture2D_201 (BGRA8)
+[2016.07.21-15.00.02:566][372]LogTexture:Display: Building textures: Texture2D_172 (BGRA8)
+[2016.07.21-15.00.02:567][372]LogTexture:Display: Building textures: Texture2D_173 (BGRA8)
+[2016.07.21-15.00.02:567][372]LogTexture:Display: Building textures: Texture2D_174 (BGRA8)
+[2016.07.21-15.00.02:574][372]LogTexture:Display: Building textures: Texture2D_176 (BGRA8)
+[2016.07.21-15.00.02:574][372]LogTexture:Display: Building textures: Texture2D_177 (BGRA8)
+[2016.07.21-15.00.02:582][372]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2016.07.21-15.00.02:615][372]LogTexture:Display: Building textures: Texture2D_202 (BGRA8)
+[2016.07.21-15.00.02:615][372]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2016.07.21-15.00.02:616][372]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2016.07.21-15.00.02:616][372]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2016.07.21-15.00.02:616][372]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2016.07.21-15.00.03:308][372]LogSavePackage: Save=897.06ms
+[2016.07.21-15.00.03:308][372]LogSavePackage: Moving '../../../../UE Projects/MyProject2/Saved/Sketch_Auto2511A38BE44F623D333DA5A8AEF5F91FB.tmp' to '../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto2.umap'
+[2016.07.21-15.00.03:310][372]LogSavePackage:Display: Finished SavePackage ../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto2.umap
+[2016.07.21-15.00.03:312][372]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Blueprints/Sketch' took 0.930
+[2016.07.21-15.00.03:312][372]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.930
+[2016.07.21-15.14.09:926][786]Cmd: SELECT NONE
+[2016.07.21-15.15.00:880][367]Cmd: POLY SELECT MEMORY UNION
+[2016.07.21-15.16.04:664][742]LogTexture:Display: Building textures: Texture2D_286 (BGRA8)
+[2016.07.21-15.16.04:672][742]LogTexture:Display: Building textures: Texture2D_287 (BGRA8)
+[2016.07.21-15.16.04:673][742]LogTexture:Display: Building textures: Texture2D_288 (BGRA8)
+[2016.07.21-15.16.04:673][742]LogTexture:Display: Building textures: Texture2D_291 (BGRA8)
+[2016.07.21-15.16.04:674][742]LogTexture:Display: Building textures: Texture2D_292 (BGRA8)
+[2016.07.21-15.16.04:674][742]LogTexture:Display: Building textures: Texture2D_293 (BGRA8)
+[2016.07.21-15.16.04:683][742]LogTexture:Display: Building textures: Texture2D_294 (BGRA8)
+[2016.07.21-15.16.04:683][742]LogTexture:Display: Building textures: Texture2D_295 (BGRA8)
+[2016.07.21-15.16.04:683][742]LogTexture:Display: Building textures: Texture2D_296 (BGRA8)
+[2016.07.21-15.16.04:684][742]LogTexture:Display: Building textures: Texture2D_297 (BGRA8)
+[2016.07.21-15.16.04:684][742]LogTexture:Display: Building textures: Texture2D_298 (BGRA8)
+[2016.07.21-15.16.04:699][742]LogTexture:Display: Building textures: Texture2D_299 (BGRA8)
+[2016.07.21-15.16.04:700][742]LogTexture:Display: Building textures: Texture2D_300 (BGRA8)
+[2016.07.21-15.16.04:710][742]LogTexture:Display: Building textures: Texture2D_302 (BGRA8)
+[2016.07.21-15.16.04:711][742]LogTexture:Display: Building textures: Texture2D_312 (BGRA8)
+[2016.07.21-15.16.04:712][742]LogTexture:Display: Building textures: Texture2D_216 (BGRA8)
+[2016.07.21-15.16.04:723][742]LogTexture:Display: Building textures: Texture2D_158 (BGRA8)
+[2016.07.21-15.16.04:723][742]LogTexture:Display: Building textures: Texture2D_161 (BGRA8)
+[2016.07.21-15.16.05:515][742]LogSavePackage: Save=868.33ms
+[2016.07.21-15.16.05:515][742]LogSavePackage: Moving '../../../../UE Projects/MyProject2/Saved/Sketch_Auto386254EE0430D4B2448C0C198F472F7FD.tmp' to '../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto3.umap'
+[2016.07.21-15.16.05:516][742]LogSavePackage:Display: Finished SavePackage ../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto3.umap
+[2016.07.21-15.16.05:520][742]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Blueprints/Sketch' took 0.903
+[2016.07.21-15.16.05:520][742]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.903
+[2016.07.21-15.19.31:782][604]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.07.21-15.19.32:419][671]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} Class".
+[2016.07.21-15.19.32:419][671]LogText:Warning: Failed to parse argument "GameStateName" as a number (using "0" as a fallback). Please check your format string for errors: "GameState: {GameStateName}".
+[2016.07.21-15.19.32:419][671]LogText:Warning: Failed to parse argument "PawnName" as a number (using "0" as a fallback). Please check your format string for errors: "Pawn: Edit {PawnName}".
+[2016.07.21-15.19.32:419][671]LogText:Warning: Failed to parse argument "HUDName" as a number (using "0" as a fallback). Please check your format string for errors: "HUD: {HUDName}".
+[2016.07.21-15.19.32:419][671]LogText:Warning: Failed to parse argument "PlayerControllerName" as a number (using "0" as a fallback). Please check your format string for errors: "PlayerController: {PlayerControllerName}".
+[2016.07.21-15.26.05:828][927]LogTexture:Display: Building textures: Texture2D_363 (BGRA8)
+[2016.07.21-15.26.05:829][927]LogTexture:Display: Building textures: Texture2D_364 (BGRA8)
+[2016.07.21-15.26.05:836][927]LogTexture:Display: Building textures: Texture2D_365 (BGRA8)
+[2016.07.21-15.26.05:836][927]LogTexture:Display: Building textures: Texture2D_366 (BGRA8)
+[2016.07.21-15.26.05:837][927]LogTexture:Display: Building textures: Texture2D_367 (BGRA8)
+[2016.07.21-15.26.05:843][927]LogTexture:Display: Building textures: Texture2D_370 (BGRA8)
+[2016.07.21-15.26.06:545][927]LogSavePackage: Save=752.33ms
+[2016.07.21-15.26.06:545][927]LogSavePackage: Moving '../../../../UE Projects/MyProject2/Saved/Sketch_Auto4A73203F34AE41813403ED2BFC9EE073F.tmp' to '../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto4.umap'
+[2016.07.21-15.26.06:546][927]LogSavePackage:Display: Finished SavePackage ../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto4.umap
+[2016.07.21-15.26.06:549][927]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Blueprints/Sketch' took 0.785
+[2016.07.21-15.26.06:549][927]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.785
+[2016.07.21-15.35.23:106][157]LogPackageName:Warning: String asset reference "SM_Snow_Snow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.23:784][159]LogPackageName: SearchForPackageOnDisk took   0.785s to resolve SM_Snow_Snow.
+[2016.07.21-15.35.25:811][165]LogPackageName:Warning: String asset reference "Env_Ice_Foliage.Mesh.SM_Snowy_Pine_Tree" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.25:811][165]LogPackageName: SearchForPackageOnDisk took   0.141s, but failed to resolve Env_Ice_Foliage.
+[2016.07.21-15.35.25:811][165]LogPackageName:Warning: String asset reference "Env_Ice_Foliage.Mesh.SM_Snowy_Pine_Tree" could not be resolved.
+[2016.07.21-15.35.27:782][171]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.27:782][171]LogPackageName: SearchForPackageOnDisk took   0.102s, but failed to resolve JW_Ice_Mountain.
+[2016.07.21-15.35.27:782][171]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2016.07.21-15.35.28:104][172]LogPackageName:Warning: String asset reference "Exo_Deco01.SM.Mesh.WoodenBarrel_Intact" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.28:104][172]LogPackageName: SearchForPackageOnDisk took   0.272s, but failed to resolve Exo_Deco01.
+[2016.07.21-15.35.28:104][172]LogPackageName:Warning: String asset reference "Exo_Deco01.SM.Mesh.WoodenBarrel_Intact" could not be resolved.
+[2016.07.21-15.35.28:779][174]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_RuinedSteps001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.28:779][174]LogPackageName: SearchForPackageOnDisk took   0.147s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-15.35.28:779][174]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_RuinedSteps001" could not be resolved.
+[2016.07.21-15.35.28:779][174]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_Grinder001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.28:779][174]LogPackageName: SearchForPackageOnDisk took   0.097s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-15.35.28:779][174]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_Grinder001" could not be resolved.
+[2016.07.21-15.35.28:779][174]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.29:116][175]LogPackageName: SearchForPackageOnDisk took   0.101s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-15.35.29:116][175]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2016.07.21-15.35.29:116][175]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.29:116][175]LogPackageName: SearchForPackageOnDisk took   0.103s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-15.35.29:116][175]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2016.07.21-15.35.29:116][175]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.29:116][175]LogPackageName: SearchForPackageOnDisk took   0.091s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-15.35.29:116][175]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2016.07.21-15.35.29:116][175]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Texture.Env_Ice_RockyStairs01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.29:435][176]LogPackageName: SearchForPackageOnDisk took   0.115s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-15.35.29:435][176]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Texture.Env_Ice_RockyStairs01" could not be resolved.
+[2016.07.21-15.35.29:435][176]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_RockTerrain01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.29:435][176]LogPackageName: SearchForPackageOnDisk took   0.102s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-15.35.29:435][176]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_RockTerrain01" could not be resolved.
+[2016.07.21-15.35.29:435][176]LogPackageName:Warning: String asset reference "Env_Ice_RuinedWalls001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.29:435][176]LogPackageName: SearchForPackageOnDisk took   0.094s, but failed to resolve Env_Ice_RuinedWalls001.
+[2016.07.21-15.35.29:435][176]LogPackageName:Warning: String asset reference "Env_Ice_RuinedWalls001" could not be resolved.
+[2016.07.21-15.35.53:517][248]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.53:517][248]LogPackageName: SearchForPackageOnDisk took   0.125s, but failed to resolve m_FogSheet_02.
+[2016.07.21-15.35.53:517][248]LogPackageName:Warning: String asset reference "m_FogSheet_02" could not be resolved.
+[2016.07.21-15.35.59:180][265]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.59:180][265]LogPackageName: SearchForPackageOnDisk took   0.111s, but failed to resolve Env_ALL_Artifacts.
+[2016.07.21-15.35.59:180][265]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2016.07.21-15.35.59:180][265]LogPackageName:Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-15.35.59:181][265]LogPackageName: SearchForPackageOnDisk took   0.122s, but failed to resolve S_ClothTarps_03.
+[2016.07.21-15.35.59:181][265]LogPackageName:Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2016.07.21-15.36.40:314][339]LogMaterial: Missing cached shader map for material M_Env_Ice_Cliffs_TilingCliffWall, compiling. 
+[2016.07.21-15.36.40:955][339]LogStaticMesh: Building static mesh SM_Env_Ice_Cliffs_CliffWall_03a...
+[2016.07.21-15.36.41:289][339]LogStaticMesh: Built static mesh [0.35s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Cliffs/StaticMesh/SM_Env_Ice_Cliffs_CliffWall_03a.SM_Env_Ice_Cliffs_CliffWall_03a
+[2016.07.21-15.36.42:056][339]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_03a
+[2016.07.21-15.36.42:931][387]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_03a
+[2016.07.21-15.36.47:680][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03a)
+[2016.07.21-15.37.05:048][ 76]LogStaticMesh: Building static mesh SM_Env_Ice_Cliffs_CliffWall_06b...
+[2016.07.21-15.37.05:078][ 76]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Cliffs/StaticMesh/SM_Env_Ice_Cliffs_CliffWall_06b.SM_Env_Ice_Cliffs_CliffWall_06b
+[2016.07.21-15.37.05:129][ 76]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_06b
+[2016.07.21-15.37.06:272][180]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_06b
+[2016.07.21-15.37.07:635][297]LogStaticMesh: Building static mesh SM_Env_Ice_SnowSlope_1...
+[2016.07.21-15.37.07:679][297]LogStaticMesh: Built static mesh [0.08s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Cliffs/StaticMesh/SM_Env_Ice_SnowSlope_1.SM_Env_Ice_SnowSlope_1
+[2016.07.21-15.37.07:922][297]LogTexture:Display: Building textures: T_Env_Ice_SnowSlopes_D (AutoDXT)
+[2016.07.21-15.37.12:484][297]LogTexture:Display: Building textures: T_Env_Ice_SnowSlopes_N (BC5)
+[2016.07.21-15.37.13:172][297]LogMaterial: Missing cached shader map for material M_Env_Ice_SnowSlope, compiling. 
+[2016.07.21-15.37.13:209][297]LogActorFactory: Actor Factory created SM_Env_Ice_SnowSlope_1
+[2016.07.21-15.37.13:222][297]LogActorFactory: Actor Factory created SM_Env_Ice_SnowSlope_1
+[2016.07.21-15.37.18:927][792]Cmd: DELETE
+[2016.07.21-15.37.18:927][792]Cmd: ACTOR DELETE
+[2016.07.21-15.37.18:952][792]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-15.37.18:990][792]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2016.07.21-15.37.21:597][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_06b)
+[2016.07.21-15.37.22:068][110]Cmd: DELETE
+[2016.07.21-15.37.22:068][110]Cmd: ACTOR DELETE
+[2016.07.21-15.37.22:070][110]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-15.37.22:091][110]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.07.21-15.37.22:520][145]LogStaticMesh: Building static mesh SM_Env_Ice_Cliffs_CliffWall_05b...
+[2016.07.21-15.37.22:550][145]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Cliffs/StaticMesh/SM_Env_Ice_Cliffs_CliffWall_05b.SM_Env_Ice_Cliffs_CliffWall_05b
+[2016.07.21-15.37.22:608][145]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_05b
+[2016.07.21-15.37.23:779][280]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_05b
+[2016.07.21-15.37.37:526][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03a)
+[2016.07.21-15.37.38:250][565]Cmd: DELETE
+[2016.07.21-15.37.38:250][565]Cmd: ACTOR DELETE
+[2016.07.21-15.37.38:252][565]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-15.37.38:273][565]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.07.21-15.37.38:560][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_05b)
+[2016.07.21-15.38.03:210][ 40]LogStaticMesh: Building static mesh SM_Env_Ice_Cliffs_CliffWall_06a...
+[2016.07.21-15.38.03:232][ 40]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Cliffs/StaticMesh/SM_Env_Ice_Cliffs_CliffWall_06a.SM_Env_Ice_Cliffs_CliffWall_06a
+[2016.07.21-15.38.03:294][ 40]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_06a
+[2016.07.21-15.38.04:028][114]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_06a
+[2016.07.21-15.38.07:314][359]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_05b
+[2016.07.21-15.38.07:917][416]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_05b
+[2016.07.21-15.38.08:963][511]LogStaticMesh: Building static mesh SM_Env_Ice_Cliffs_CliffWall_05a...
+[2016.07.21-15.38.08:982][511]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Cliffs/StaticMesh/SM_Env_Ice_Cliffs_CliffWall_05a.SM_Env_Ice_Cliffs_CliffWall_05a
+[2016.07.21-15.38.09:222][528]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_05a
+[2016.07.21-15.38.09:636][567]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_05a
+[2016.07.21-15.38.10:021][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_05b2)
+[2016.07.21-15.38.10:279][623]Cmd: DELETE
+[2016.07.21-15.38.10:279][623]Cmd: ACTOR DELETE
+[2016.07.21-15.38.10:280][623]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-15.38.10:295][623]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.07.21-15.38.10:589][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_05a)
+[2016.07.21-15.38.17:503][344]Cmd: DELETE
+[2016.07.21-15.38.17:503][344]Cmd: ACTOR DELETE
+[2016.07.21-15.38.17:505][344]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-15.38.17:526][344]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.07.21-15.38.19:233][466]LogStaticMesh: Building static mesh SM_Env_Ice_Cliffs_CliffWall_03b...
+[2016.07.21-15.38.19:270][466]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Cliffs/StaticMesh/SM_Env_Ice_Cliffs_CliffWall_03b.SM_Env_Ice_Cliffs_CliffWall_03b
+[2016.07.21-15.38.19:370][466]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_03b
+[2016.07.21-15.38.19:971][535]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_03b
+[2016.07.21-15.38.29:546][445]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.21-15.38.29:921][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_06a)
+[2016.07.21-15.38.38:372][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03b)
+[2016.07.21-15.38.43:042][846]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.21-15.38.43:603][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_06a)
+[2016.07.21-15.38.46:614][215]Cmd: SELECT NONE
+[2016.07.21-15.39.26:441][482]LogSavePackage: Save=3409.66ms
+[2016.07.21-15.39.26:441][482]LogSavePackage: Moving '../../../../UE Projects/MyProject2/Saved/Sketch_Auto5ADFD658C4AEC9CA8C95D2682246D1D09.tmp' to '../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto5.umap'
+[2016.07.21-15.39.26:442][482]LogSavePackage:Display: Finished SavePackage ../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto5.umap
+[2016.07.21-15.39.26:444][482]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Blueprints/Sketch' took 3.697
+[2016.07.21-15.39.26:444][482]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.697
+[2016.07.21-15.59.40:151][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_06a)
+[2016.07.21-15.59.43:246][765]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.21-15.59.43:479][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03b)
+[2016.07.21-15.59.44:566][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03b)
+[2016.07.21-16.00.10:150][ 83]LogSavePackage: Save=673.26ms
+[2016.07.21-16.00.10:150][ 83]LogSavePackage: Moving '../../../../UE Projects/MyProject2/Saved/Sketch_Auto6DDD1D06248FEDF5FCBC71AA81E92B388.tmp' to '../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto6.umap'
+[2016.07.21-16.00.10:151][ 83]LogSavePackage:Display: Finished SavePackage ../../../../UE Projects/MyProject2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Sketch_Auto6.umap
+[2016.07.21-16.00.10:153][ 83]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Blueprints/Sketch' took 0.700
+[2016.07.21-16.00.10:153][ 83]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.700
+[2016.07.21-16.00.33:081][286]Cmd: SELECT NONE
+[2016.07.21-16.00.49:743][ 57]LogActorFactory: Actor Factory created SM_Env_Ice_SnowSlope_1
+[2016.07.21-16.00.50:321][119]LogActorFactory: Actor Factory created SM_Env_Ice_SnowSlope_1
+[2016.07.21-16.00.54:861][524]Cmd: DELETE
+[2016.07.21-16.00.54:861][524]Cmd: ACTOR DELETE
+[2016.07.21-16.00.54:863][524]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-16.00.54:884][524]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.07.21-16.00.56:856][727]LogStaticMesh: Building static mesh SM_Env_Ice_Cliffs_CliffWall_03c...
+[2016.07.21-16.00.56:887][727]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Cliffs/StaticMesh/SM_Env_Ice_Cliffs_CliffWall_03c.SM_Env_Ice_Cliffs_CliffWall_03c
+[2016.07.21-16.00.56:923][727]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_03c
+[2016.07.21-16.00.57:588][799]LogActorFactory: Actor Factory created SM_Env_Ice_Cliffs_CliffWall_03c
+[2016.07.21-16.01.02:948][249]Cmd: EDIT COPY
+[2016.07.21-16.01.03:018][249]Cmd: EDIT PASTE
+[2016.07.21-16.01.03:366][264]Cmd: EDIT PASTE
+[2016.07.21-16.01.03:427][265]Cmd: EDIT PASTE
+[2016.07.21-16.01.07:074][582]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.21-16.01.07:608][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03c4)
+[2016.07.21-16.01.08:007][649]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03c3)
+[2016.07.21-16.01.08:149][653]Cmd: EDIT COPY
+[2016.07.21-16.01.08:364][673]Cmd: EDIT PASTE
+[2016.07.21-16.01.11:068][922]Cmd: SELECT NONE
+[2016.07.21-16.01.18:762][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03c3)
+[2016.07.21-16.01.19:264][790]Cmd: DELETE
+[2016.07.21-16.01.19:264][790]Cmd: ACTOR DELETE
+[2016.07.21-16.01.19:265][790]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-16.01.19:291][790]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2016.07.21-16.01.19:621][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03c4)
+[2016.07.21-16.01.19:709][829]Cmd: DELETE
+[2016.07.21-16.01.19:709][829]Cmd: ACTOR DELETE
+[2016.07.21-16.01.19:710][829]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-16.01.19:725][829]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.07.21-16.01.20:248][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03c2)
+[2016.07.21-16.01.20:354][891]Cmd: DELETE
+[2016.07.21-16.01.20:354][891]Cmd: ACTOR DELETE
+[2016.07.21-16.01.20:355][891]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-16.01.20:370][891]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.07.21-16.01.20:560][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03c6)
+[2016.07.21-16.01.20:731][921]Cmd: DELETE
+[2016.07.21-16.01.20:731][921]Cmd: ACTOR DELETE
+[2016.07.21-16.01.20:733][921]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-16.01.20:748][921]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2016.07.21-16.01.20:955][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03c5)
+[2016.07.21-16.01.21:066][949]Cmd: DELETE
+[2016.07.21-16.01.21:066][949]Cmd: ACTOR DELETE
+[2016.07.21-16.01.21:069][949]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-16.01.21:089][949]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.07.21-16.01.21:334][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03c)
+[2016.07.21-16.01.21:422][981]Cmd: DELETE
+[2016.07.21-16.01.21:422][981]Cmd: ACTOR DELETE
+[2016.07.21-16.01.21:423][981]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-16.01.21:438][981]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.07.21-16.01.22:235][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_03b)
+[2016.07.21-16.01.22:335][ 72]Cmd: DELETE
+[2016.07.21-16.01.22:335][ 72]Cmd: ACTOR DELETE
+[2016.07.21-16.01.22:336][ 72]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-16.01.22:352][ 72]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2016.07.21-16.01.22:525][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_06a)
+[2016.07.21-16.01.22:616][ 95]Cmd: DELETE
+[2016.07.21-16.01.22:616][ 95]Cmd: ACTOR DELETE
+[2016.07.21-16.01.22:618][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-16.01.22:633][ 95]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.07.21-16.01.22:844][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Cliffs_CliffWall_05b)
+[2016.07.21-16.01.22:944][120]Cmd: DELETE
+[2016.07.21-16.01.22:944][120]Cmd: ACTOR DELETE
+[2016.07.21-16.01.22:946][120]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.07.21-16.01.22:966][120]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.07.21-16.03.09:450][336]LogPackageName:Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-16.03.09:711][336]LogPackageName: SearchForPackageOnDisk took   0.260s, but failed to resolve S_ClothTarps_03.
+[2016.07.21-16.03.09:711][336]LogPackageName:Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2016.07.21-16.03.09:752][336]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_RuinedSteps001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-16.03.09:856][336]LogPackageName: SearchForPackageOnDisk took   0.104s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-16.03.09:856][336]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_RuinedSteps001" could not be resolved.
+[2016.07.21-16.03.10:304][336]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Texture.Env_Ice_RockyStairs01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-16.03.10:405][336]LogPackageName: SearchForPackageOnDisk took   0.101s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-16.03.10:405][336]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Texture.Env_Ice_RockyStairs01" could not be resolved.
+[2016.07.21-16.03.10:437][336]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-16.03.10:538][336]LogPackageName: SearchForPackageOnDisk took   0.101s, but failed to resolve Env_ALL_Artifacts.
+[2016.07.21-16.03.10:538][336]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2016.07.21-16.03.10:539][336]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-16.03.10:637][336]LogPackageName: SearchForPackageOnDisk took   0.098s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-16.03.10:637][336]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2016.07.21-16.03.10:651][336]LogPackageName:Warning: String asset reference "Env_Ice_RuinedWalls001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-16.03.10:751][336]LogPackageName: SearchForPackageOnDisk took   0.100s, but failed to resolve Env_Ice_RuinedWalls001.
+[2016.07.21-16.03.10:751][336]LogPackageName:Warning: String asset reference "Env_Ice_RuinedWalls001" could not be resolved.
+[2016.07.21-16.03.10:753][336]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-16.03.10:845][336]LogPackageName: SearchForPackageOnDisk took   0.092s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-16.03.10:845][336]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2016.07.21-16.03.10:911][336]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.07.21-16.03.11:010][336]LogPackageName: SearchForPackageOnDisk took   0.100s, but failed to resolve Env_Ice_Rocky.
+[2016.07.21-16.03.11:010][336]LogPackageName:Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2016.07.21-16.03.11:019][336]LogStaticMesh: Building static mesh SM_IceT3_RockPebbles...
+[2016.07.21-16.03.11:057][336]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_RockPebbles.SM_IceT3_RockPebbles
+[2016.07.21-16.03.11:110][336]LogStaticMesh: Building static mesh SM_Exo_Crate_Open_Destroyed...
+[2016.07.21-16.03.11:122][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Crate_Open_Destroyed.SM_Exo_Crate_Open_Destroyed
+[2016.07.21-16.03.11:237][336]LogTexture:Display: Building textures: T_Exo_Crate_Open_N (AutoDXT)
+[2016.07.21-16.03.11:413][336]LogStaticMesh: Building static mesh SM_Exo_Hay...
+[2016.07.21-16.03.11:432][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Hay.SM_Exo_Hay
+[2016.07.21-16.03.11:437][336]LogStaticMesh: Building static mesh SM_Exo_Crate_Open_Intact...
+[2016.07.21-16.03.11:440][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Crate_Open_Intact.SM_Exo_Crate_Open_Intact
+[2016.07.21-16.03.11:442][336]LogStaticMesh: Building static mesh SM_Snowy_Flowers...
+[2016.07.21-16.03.11:453][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/DR_Ice_Mountain/StaticMesh/SM_Snowy_Flowers.SM_Snowy_Flowers
+[2016.07.21-16.03.11:739][336]LogTexture:Display: Building textures: T_Env_Fire_OddsnEnds_FloorPillar_D (AutoDXT)
+[2016.07.21-16.03.17:010][336]LogTexture:Display: Building textures: T_Env_Fire_OddsnEnds_FloorPillar_N (BC5)
+[2016.07.21-16.03.17:883][336]LogTexture:Display: Building textures: T_Snow_Grass_Flowers_A (AutoDXT)
+[2016.07.21-16.03.18:209][336]LogMaterial: Missing cached shader map for material M_Snowy_Flowers, compiling. 
+[2016.07.21-16.03.18:317][336]LogTexture:Display: Building textures: LUT_Morning (BGRA8)
+[2016.07.21-16.03.18:352][336]LogTexture:Display: Building textures: T_Env_Ice_Deco2_Flag_D (AutoDXT)
+[2016.07.21-16.03.19:409][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Skeleton...
+[2016.07.21-16.03.19:470][336]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Skeleton.SM_Env_Ice_Deco2_Skeleton
+[2016.07.21-16.03.19:478][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_sacks...
+[2016.07.21-16.03.19:489][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_sacks.SM_Env_Ice_Deco2_sacks
+[2016.07.21-16.03.19:496][336]LogTexture:Display: Building textures: T_Env_Ice_Deco2_Skeleton_D (AutoDXT)
+[2016.07.21-16.03.19:601][336]LogTexture:Display: Building textures: T_Env_Ice_Deco2_Skeleton_N (BC5)
+[2016.07.21-16.03.19:619][336]LogMaterial: Missing cached shader map for material M_Env_Ice_Deco2_Skeleton, compiling. 
+[2016.07.21-16.03.19:895][336]LogTexture:Display: Building textures: Env_Fire_Dirt_Rocky_2_D (AutoDXT)
+[2016.07.21-16.03.25:823][336]LogTexture:Display: Building textures: T_Snow_Ice_Generic (AutoDXT)
+[2016.07.21-16.03.31:185][336]LogTexture:Display: Building textures: Env_Fire_Dirt_Rocky_N (BC5)
+[2016.07.21-16.03.32:352][336]LogTexture:Display: Building textures: T_Snow_Ice_Generic_NRM (BC5)
+[2016.07.21-16.03.33:270][336]LogMaterial: Missing cached shader map for material M_IceT3_Fort_FloorAsh, compiling. 
+[2016.07.21-16.03.33:594][336]LogTexture:Display: Building textures: Ice_Fort_Floor_5_N (BC5)
+[2016.07.21-16.03.34:612][336]LogStaticMesh: Building static mesh SM_IceT3_Walkway_03b...
+[2016.07.21-16.03.34:665][336]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Walkway_03b.SM_IceT3_Walkway_03b
+[2016.07.21-16.03.34:671][336]LogStaticMesh: Building static mesh SM_IceT3_Walkway_03...
+[2016.07.21-16.03.34:699][336]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Walkway_03.SM_IceT3_Walkway_03
+[2016.07.21-16.03.34:972][336]LogTexture:Display: Building textures: T_FlameDungeon_Cliffside01_SNOW_D (AutoDXT)
+[2016.07.21-16.03.40:052][336]LogTexture:Display: Building textures: T_FlameDungeon_Cliffside01_N (BC5)
+[2016.07.21-16.03.41:054][336]LogTexture:Display: Building textures: T_Snow_Ice_Generic (AutoDXT)
+[2016.07.21-16.03.46:217][336]LogTexture:Display: Building textures: T_Env_Ice_NordicHouse_D (AutoDXT)
+[2016.07.21-16.03.51:220][336]LogTexture:Display: Building textures: T_Snow_Ice_Generic_NRM (BC5)
+[2016.07.21-16.03.52:186][336]LogTexture:Display: Building textures: T_Env_Ice_NordicHouse_N (BC5)
+[2016.07.21-16.03.52:889][336]LogMaterial: Missing cached shader map for material M_Env_Ice_Buildings_NordicBuilding, compiling. 
+[2016.07.21-16.03.53:198][336]LogTexture:Display: Building textures: T_Env_ALL_Terminus_D (AutoDXT)
+[2016.07.21-16.03.57:967][336]LogStaticMesh: Building static mesh SM_ClothTarps_01...
+[2016.07.21-16.03.57:968][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_ClothTarps_01.SM_ClothTarps_01
+[2016.07.21-16.03.58:225][336]LogTexture:Display: Building textures: T_Env_ALL_Terminus_N (BC5)
+[2016.07.21-16.03.59:162][336]LogTexture:Display: Building textures: T_ClothTarps_01_D (DXT1)
+[2016.07.21-16.03.59:270][336]LogTexture:Display: Building textures: T_ClothTarps_01_N (BC5)
+[2016.07.21-16.03.59:290][336]LogTexture:Display: Building textures: T_ClothTarps_01_M (AutoDXT)
+[2016.07.21-16.03.59:371][336]LogMaterial: Missing cached shader map for material M_ClothTarps_01, compiling. 
+[2016.07.21-16.03.59:493][336]LogTexture:Display: Building textures: T_SnowTop_N (BC5)
+[2016.07.21-16.04.00:003][336]LogTexture:Display: Building textures: T_LS_Grass_01_D (AutoDXT)
+[2016.07.21-16.04.05:893][336]LogTexture:Display: Building textures: T_IceSurface_ComplexNormal (BC5)
+[2016.07.21-16.04.06:169][336]LogTexture:Display: Building textures: SnowMound_01_N (BC5)
+[2016.07.21-16.04.07:401][336]LogTexture:Display: Building textures: T_Env_Ice_Ground_Rock_1_N (BC5)
+[2016.07.21-16.04.08:601][336]LogTexture:Display: Building textures: T_Env_Ice_Ground_Rock_3_N (BC5)
+[2016.07.21-16.04.09:518][336]LogMaterial: Missing cached shader map for material M_Ice_VertPaint_Mobile, compiling. 
+[2016.07.21-16.04.09:581][336]LogTexture:Display: Building textures: T_Ice_Crystal_D_02 (AutoDXT)
+[2016.07.21-16.04.10:160][336]LogTexture:Display: Building textures: T_Env_Ice_Deco2_GroupAssets_D (AutoDXT)
+[2016.07.21-16.04.16:305][336]LogTexture:Display: Building textures: T_Env_Ice_Deco2_Group_N (BC5)
+[2016.07.21-16.04.17:348][336]LogMaterial: Missing cached shader map for material M_EX_EnvAssets_Livables1, compiling. 
+[2016.07.21-16.04.17:384][336]LogMaterial: Missing cached shader map for material M_Add_Sprite_Master_DepthFade, compiling. 
+[2016.07.21-16.04.17:455][336]LogTexture:Display: Building textures: T_SoftFallOff (AutoDXT)
+[2016.07.21-16.04.17:479][336]LogMaterial: Missing cached shader map for material M_Add_Sprite_SubUV_Master, compiling. 
+[2016.07.21-16.04.17:511][336]LogTexture:Display: Building textures: T_Sparks_04_SubUV_1_4 (AutoDXT)
+[2016.07.21-16.04.17:662][336]LogTexture:Display: Building textures: T_Smoke_subUV_01 (AutoDXT)
+[2016.07.21-16.04.18:660][336]LogTexture:Display: Building textures: T_SmokeBall_01_8_8 (AutoDXT)
+[2016.07.21-16.04.19:701][336]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.07.21-16.04.20:061][336]LogTexture:Display: Building textures: T_Stone_Meddamaged_D (AutoDXT)
+[2016.07.21-16.04.25:768][336]LogTexture:Display: Building textures: T_BrokenSection_D_Snow (AutoDXT)
+[2016.07.21-16.04.30:241][336]LogStaticMesh: Building static mesh SM_REL_Battlement_Support_001...
+[2016.07.21-16.04.30:260][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_RockyRuins/StaticMesh/SM_REL_Battlement_Support_001.SM_REL_Battlement_Support_001
+[2016.07.21-16.04.30:559][336]LogTexture:Display: Building textures: T_BrokenSection_N (BC5)
+[2016.07.21-16.04.31:727][336]LogTexture:Display: Building textures: T_Stone_Meddamaged_N (BC5)
+[2016.07.21-16.04.32:882][336]LogTexture:Display: Building textures: T_Stone_Meddamaged_D_Snow (AutoDXT)
+[2016.07.21-16.04.38:048][336]LogMaterial: Missing cached shader map for material M_Stone_MedDamagedSnow, compiling. 
+[2016.07.21-16.04.38:150][336]LogTexture:Display: Building textures: T_Snow_Tree_Dead_NRM (BC5)
+[2016.07.21-16.04.38:434][336]LogTexture:Display: Building textures: T_Snow_Tree_Dead_A2 (AutoDXT)
+[2016.07.21-16.04.39:052][336]LogMaterial: Missing cached shader map for material M_White_Dead_Tree, compiling. 
+[2016.07.21-16.04.39:113][336]LogStaticMesh: Building static mesh SM_Env_Ice_Buildings_Door2...
+[2016.07.21-16.04.39:128][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Buildings/StaticMesh/SM_Env_Ice_Buildings_Door2.SM_Env_Ice_Buildings_Door2
+[2016.07.21-16.04.39:146][336]LogStaticMesh: Building static mesh SM_WoodenBarrel_Intact...
+[2016.07.21-16.04.39:155][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_WoodenBarrel_Intact.SM_WoodenBarrel_Intact
+[2016.07.21-16.04.39:166][336]LogStaticMesh: Building static mesh SM_Exo_Bridge_Tile_BROKEN_D...
+[2016.07.21-16.04.39:168][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Bridge_Tile_BROKEN_D.SM_Exo_Bridge_Tile_BROKEN_D
+[2016.07.21-16.04.39:236][336]LogTexture:Display: Building textures: T_Tile_Floor_Broken_D (AutoDXT)
+[2016.07.21-16.04.40:682][336]LogTexture:Display: Building textures: T_Tile_Floor_Broken_D_NRM (BC5)
+[2016.07.21-16.04.40:918][336]LogMaterial: Missing cached shader map for material M_Tile_Floor_Broken_Tex_A, compiling. 
+[2016.07.21-16.04.41:011][336]LogTexture:Display: Building textures: T_Decos_BSP_Stucco03_D (AutoDXT)
+[2016.07.21-16.04.42:402][336]LogMaterial: Missing cached shader map for material M_Decos_BSP_Stucco03, compiling. 
+[2016.07.21-16.04.42:434][336]LogStaticMesh: Building static mesh SM_IceT3_Walkway_01b...
+[2016.07.21-16.04.42:453][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Walkway_01b.SM_IceT3_Walkway_01b
+[2016.07.21-16.04.42:458][336]LogStaticMesh: Building static mesh SM_IceT3_Tiles_05...
+[2016.07.21-16.04.42:506][336]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Tiles_05.SM_IceT3_Tiles_05
+[2016.07.21-16.04.42:525][336]LogStaticMesh: Building static mesh SM_IceT3_Walkway_01...
+[2016.07.21-16.04.42:539][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Walkway_01.SM_IceT3_Walkway_01
+[2016.07.21-16.04.42:558][336]LogStaticMesh: Building static mesh SM_Exo_Bridge_Tile_Floor_A...
+[2016.07.21-16.04.42:559][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Bridge_Tile_Floor_A.SM_Exo_Bridge_Tile_Floor_A
+[2016.07.21-16.04.42:658][336]LogTexture:Display: Building textures: T_Decos_Door_N (BC5)
+[2016.07.21-16.04.42:944][336]LogTexture:Display: Building textures: T_Decos_Door_D (AutoDXT)
+[2016.07.21-16.04.44:308][336]LogTexture:Display: Building textures: T_Decos_Door_M (AutoDXT)
+[2016.07.21-16.04.44:532][336]LogMaterial: Missing cached shader map for material M_Decos_Door, compiling. 
+[2016.07.21-16.04.44:569][336]LogStaticMesh: Building static mesh SM_Exo_Decos_Door02...
+[2016.07.21-16.04.44:578][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door02.SM_Exo_Decos_Door02
+[2016.07.21-16.04.44:581][336]LogStaticMesh: Building static mesh SM_IceT3_Walkway_02...
+[2016.07.21-16.04.44:642][336]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Walkway_02.SM_IceT3_Walkway_02
+[2016.07.21-16.04.44:689][336]LogStaticMesh: Building static mesh SM_IceT3_Walkway_02b...
+[2016.07.21-16.04.44:770][336]LogStaticMesh: Built static mesh [0.08s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Walkway_02b.SM_IceT3_Walkway_02b
+[2016.07.21-16.04.44:797][336]LogStaticMesh: Building static mesh SM_IceT3_Walkway_01c...
+[2016.07.21-16.04.44:821][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Walkway_01c.SM_IceT3_Walkway_01c
+[2016.07.21-16.04.45:098][336]LogTexture:Display: Building textures: T_Env_Ice_Ground_Rock_2_N (BC5)
+[2016.07.21-16.04.46:332][336]LogTexture:Display: Building textures: Ice_Fort_Floor_5_D (AutoDXT)
+[2016.07.21-16.04.52:038][336]LogTexture:Display: Building textures: T_FogPlane01_Clouds (AutoDXT)
+[2016.07.21-16.04.52:429][336]LogMaterial: Missing cached shader map for material M_IceT3_Fort_Floor_05, compiling. 
+[2016.07.21-16.04.52:478][336]LogStaticMesh: Building static mesh SM_Env_Ice_RockyStairs04...
+[2016.07.21-16.04.52:588][336]LogStaticMesh: Built static mesh [0.11s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_RockyStairs04.SM_Env_Ice_RockyStairs04
+[2016.07.21-16.04.52:863][336]LogTexture:Display: Building textures: T_Env_Ice_Accents_N (BC5)
+[2016.07.21-16.04.54:119][336]LogTexture:Display: Building textures: T_Env_Ice_Accents_Snow_D (AutoDXT)
+[2016.07.21-16.04.59:613][336]LogTexture:Display: Building textures: T_Snow_Ice_Generic (AutoDXT)
+[2016.07.21-16.05.05:142][336]LogTexture:Display: Building textures: T_Snow_Ice_Generic_NRM (BC5)
+[2016.07.21-16.05.06:123][336]LogMaterial: Missing cached shader map for material M_Env_Ice_Accents_Snow, compiling. 
+[2016.07.21-16.05.06:155][336]LogStaticMesh: Building static mesh SM_Env_Ice_RuinedPillarbit001...
+[2016.07.21-16.05.06:172][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_RuinedPillarbit001.SM_Env_Ice_RuinedPillarbit001
+[2016.07.21-16.05.06:242][336]LogTexture:Display: Building textures: T_Fire_subUV_6X6 (AutoDXT)
+[2016.07.21-16.05.07:033][336]LogTexture:Display: Building textures: T_Iron_N (BC5)
+[2016.07.21-16.05.08:098][336]LogTexture:Display: Building textures: T_Iron_D (AutoDXT)
+[2016.07.21-16.05.13:454][336]LogMaterial: Missing cached shader map for material M_Ice_Fort_Iron_Env_Map, compiling. 
+[2016.07.21-16.05.13:489][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Brazier_1...
+[2016.07.21-16.05.13:504][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Brazier_1.SM_Ice_Fort_Brazier_1
+[2016.07.21-16.05.13:519][336]LogStaticMesh: Building static mesh SM_ICE_Outside_Mountain...
+[2016.07.21-16.05.13:614][336]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.21-16.05.14:202][336]LogStaticMesh: Built static mesh [0.69s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/StaticMesh/SM_ICE_Outside_Mountain.SM_ICE_Outside_Mountain
+[2016.07.21-16.05.14:505][336]LogTexture:Display: Building textures: T_EXO_Landscape_Rock01_N (BC5)
+[2016.07.21-16.05.15:657][336]LogTexture:Display: Building textures: T_Mountain_N (BC5)
+[2016.07.21-16.05.16:718][336]LogTexture:Display: Building textures: T_Mountain_SnowMask (AutoDXT)
+[2016.07.21-16.05.18:128][336]LogTexture:Display: Building textures: T_EXO_Landscape_Snow01_D (AutoDXT)
+[2016.07.21-16.05.21:176][336]LogTexture:Display: Building textures: T_EXO_Landscape_Rock01_D (AutoDXT)
+[2016.07.21-16.05.24:985][336]LogMaterial: Missing cached shader map for material M_MountainMaterial, compiling. 
+[2016.07.21-16.05.25:014][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Skeleton2...
+[2016.07.21-16.05.25:111][336]LogStaticMesh: Built static mesh [0.10s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Skeleton2.SM_Env_Ice_Deco2_Skeleton2
+[2016.07.21-16.05.25:142][336]LogStaticMesh: Building static mesh SM_EnvAssets_Boxes1...
+[2016.07.21-16.05.25:145][336]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EnvAssets_Boxes1.SM_EnvAssets_Boxes1
+[2016.07.21-16.05.25:147][336]LogStaticMesh: Building static mesh SM_EnvAssets_Box1...
+[2016.07.21-16.05.25:149][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EnvAssets_Box1.SM_EnvAssets_Box1
+[2016.07.21-16.05.25:170][336]LogStaticMesh: Building static mesh SM_EnvAssets_Barrel2...
+[2016.07.21-16.05.25:173][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EnvAssets_Barrel2.SM_EnvAssets_Barrel2
+[2016.07.21-16.05.25:562][336]LogTexture:Display: Building textures: T_EnvAssets_Assets1_D (AutoDXT)
+[2016.07.21-16.05.30:991][336]LogTexture:Display: Building textures: T_EnvAssets_Assets1_N (BC5)
+[2016.07.21-16.05.32:013][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Stair_1...
+[2016.07.21-16.05.32:016][336]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Stair_1.SM_Ice_Fort_Stair_1
+[2016.07.21-16.05.32:019][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Pillar_5...
+[2016.07.21-16.05.32:026][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Pillar_5.SM_Ice_Fort_Pillar_5
+[2016.07.21-16.05.32:249][336]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.07.21-16.05.33:227][336]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.07.21-16.05.33:375][336]LogTexture:Display: Building textures: HQ_Lightmap1_100 (AutoDXT)
+[2016.07.21-16.05.33:403][336]LogTexture:Display: Building textures: HQ_Lightmap1_101 (AutoDXT)
+[2016.07.21-16.05.33:435][336]LogTexture:Display: Building textures: HQ_Lightmap1_102 (AutoDXT)
+[2016.07.21-16.05.33:465][336]LogTexture:Display: Building textures: HQ_Lightmap1_103 (AutoDXT)
+[2016.07.21-16.05.33:502][336]LogTexture:Display: Building textures: HQ_Lightmap1_104 (AutoDXT)
+[2016.07.21-16.05.33:534][336]LogTexture:Display: Building textures: HQ_Lightmap1_105 (AutoDXT)
+[2016.07.21-16.05.33:587][336]LogTexture:Display: Building textures: HQ_Lightmap1_106 (AutoDXT)
+[2016.07.21-16.05.33:620][336]LogTexture:Display: Building textures: HQ_Lightmap1_107 (AutoDXT)
+[2016.07.21-16.05.33:665][336]LogTexture:Display: Building textures: HQ_Lightmap1_108 (AutoDXT)
+[2016.07.21-16.05.33:740][336]LogTexture:Display: Building textures: HQ_Lightmap1_109 (AutoDXT)
+[2016.07.21-16.05.34:693][336]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2016.07.21-16.05.34:738][336]LogTexture:Display: Building textures: HQ_Lightmap1_110 (AutoDXT)
+[2016.07.21-16.05.34:770][336]LogTexture:Display: Building textures: HQ_Lightmap1_111 (AutoDXT)
+[2016.07.21-16.05.34:803][336]LogTexture:Display: Building textures: HQ_Lightmap1_112 (AutoDXT)
+[2016.07.21-16.05.34:832][336]LogTexture:Display: Building textures: HQ_Lightmap1_113 (AutoDXT)
+[2016.07.21-16.05.35:045][336]LogTexture:Display: Building textures: HQ_Lightmap1_114 (AutoDXT)
+[2016.07.21-16.05.35:078][336]LogTexture:Display: Building textures: HQ_Lightmap1_115 (AutoDXT)
+[2016.07.21-16.05.35:123][336]LogTexture:Display: Building textures: HQ_Lightmap1_116 (AutoDXT)
+[2016.07.21-16.05.35:154][336]LogTexture:Display: Building textures: HQ_Lightmap1_117 (AutoDXT)
+[2016.07.21-16.05.35:212][336]LogTexture:Display: Building textures: HQ_Lightmap1_118 (AutoDXT)
+[2016.07.21-16.05.35:244][336]LogTexture:Display: Building textures: HQ_Lightmap1_119 (AutoDXT)
+[2016.07.21-16.05.35:304][336]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2016.07.21-16.05.35:999][336]LogTexture:Display: Building textures: HQ_Lightmap1_120 (AutoDXT)
+[2016.07.21-16.05.36:036][336]LogTexture:Display: Building textures: HQ_Lightmap1_121 (AutoDXT)
+[2016.07.21-16.05.36:067][336]LogTexture:Display: Building textures: HQ_Lightmap1_122 (AutoDXT)
+[2016.07.21-16.05.36:101][336]LogTexture:Display: Building textures: HQ_Lightmap1_123 (AutoDXT)
+[2016.07.21-16.05.36:140][336]LogTexture:Display: Building textures: HQ_Lightmap1_124 (AutoDXT)
+[2016.07.21-16.05.36:172][336]LogTexture:Display: Building textures: HQ_Lightmap1_125 (AutoDXT)
+[2016.07.21-16.05.36:211][336]LogTexture:Display: Building textures: HQ_Lightmap1_126 (AutoDXT)
+[2016.07.21-16.05.36:252][336]LogTexture:Display: Building textures: HQ_Lightmap1_127 (AutoDXT)
+[2016.07.21-16.05.36:374][336]LogTexture:Display: Building textures: HQ_Lightmap1_128 (AutoDXT)
+[2016.07.21-16.05.36:409][336]LogTexture:Display: Building textures: HQ_Lightmap1_129 (AutoDXT)
+[2016.07.21-16.05.36:470][336]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2016.07.21-16.05.36:500][336]LogTexture:Display: Building textures: HQ_Lightmap1_130 (AutoDXT)
+[2016.07.21-16.05.36:520][336]LogTexture:Display: Building textures: HQ_Lightmap1_131 (AutoDXT)
+[2016.07.21-16.05.36:551][336]LogTexture:Display: Building textures: HQ_Lightmap1_132 (AutoDXT)
+[2016.07.21-16.05.36:610][336]LogTexture:Display: Building textures: HQ_Lightmap1_133 (AutoDXT)
+[2016.07.21-16.05.36:634][336]LogTexture:Display: Building textures: HQ_Lightmap1_134 (AutoDXT)
+[2016.07.21-16.05.36:658][336]LogTexture:Display: Building textures: HQ_Lightmap1_135 (AutoDXT)
+[2016.07.21-16.05.36:700][336]LogTexture:Display: Building textures: HQ_Lightmap1_136 (AutoDXT)
+[2016.07.21-16.05.36:728][336]LogTexture:Display: Building textures: HQ_Lightmap1_137 (AutoDXT)
+[2016.07.21-16.05.36:767][336]LogTexture:Display: Building textures: HQ_Lightmap1_138 (AutoDXT)
+[2016.07.21-16.05.36:806][336]LogTexture:Display: Building textures: HQ_Lightmap1_139 (AutoDXT)
+[2016.07.21-16.05.36:961][336]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2016.07.21-16.05.37:649][336]LogTexture:Display: Building textures: HQ_Lightmap1_140 (AutoDXT)
+[2016.07.21-16.05.37:676][336]LogTexture:Display: Building textures: HQ_Lightmap1_141 (AutoDXT)
+[2016.07.21-16.05.37:713][336]LogTexture:Display: Building textures: HQ_Lightmap1_142 (AutoDXT)
+[2016.07.21-16.05.37:742][336]LogTexture:Display: Building textures: HQ_Lightmap1_143 (AutoDXT)
+[2016.07.21-16.05.37:814][336]LogTexture:Display: Building textures: HQ_Lightmap1_144 (AutoDXT)
+[2016.07.21-16.05.38:464][336]LogTexture:Display: Building textures: HQ_Lightmap1_145 (AutoDXT)
+[2016.07.21-16.05.38:521][336]LogTexture:Display: Building textures: HQ_Lightmap1_146 (AutoDXT)
+[2016.07.21-16.05.38:551][336]LogTexture:Display: Building textures: HQ_Lightmap1_147 (AutoDXT)
+[2016.07.21-16.05.38:582][336]LogTexture:Display: Building textures: HQ_Lightmap1_148 (AutoDXT)
+[2016.07.21-16.05.38:615][336]LogTexture:Display: Building textures: HQ_Lightmap1_149 (AutoDXT)
+[2016.07.21-16.05.38:704][336]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2016.07.21-16.05.39:867][336]LogTexture:Display: Building textures: HQ_Lightmap1_150 (AutoDXT)
+[2016.07.21-16.05.39:917][336]LogTexture:Display: Building textures: HQ_Lightmap1_151 (AutoDXT)
+[2016.07.21-16.05.40:158][336]LogTexture:Display: Building textures: HQ_Lightmap1_152 (AutoDXT)
+[2016.07.21-16.05.40:204][336]LogTexture:Display: Building textures: HQ_Lightmap1_153 (AutoDXT)
+[2016.07.21-16.05.40:233][336]LogTexture:Display: Building textures: HQ_Lightmap1_154 (AutoDXT)
+[2016.07.21-16.05.40:311][336]LogTexture:Display: Building textures: HQ_Lightmap1_155 (AutoDXT)
+[2016.07.21-16.05.40:957][336]LogTexture:Display: Building textures: HQ_Lightmap1_156 (AutoDXT)
+[2016.07.21-16.05.41:091][336]LogTexture:Display: Building textures: HQ_Lightmap1_157 (AutoDXT)
+[2016.07.21-16.05.41:124][336]LogTexture:Display: Building textures: HQ_Lightmap1_158 (AutoDXT)
+[2016.07.21-16.05.41:170][336]LogTexture:Display: Building textures: HQ_Lightmap1_159 (AutoDXT)
+[2016.07.21-16.05.41:304][336]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2016.07.21-16.05.41:750][336]LogTexture:Display: Building textures: HQ_Lightmap1_160 (AutoDXT)
+[2016.07.21-16.05.41:779][336]LogTexture:Display: Building textures: HQ_Lightmap1_161 (AutoDXT)
+[2016.07.21-16.05.41:831][336]LogTexture:Display: Building textures: HQ_Lightmap1_162 (AutoDXT)
+[2016.07.21-16.05.41:887][336]LogTexture:Display: Building textures: HQ_Lightmap1_163 (AutoDXT)
+[2016.07.21-16.05.42:270][336]LogTexture:Display: Building textures: HQ_Lightmap1_164 (AutoDXT)
+[2016.07.21-16.05.42:306][336]LogTexture:Display: Building textures: HQ_Lightmap1_165 (AutoDXT)
+[2016.07.21-16.05.42:332][336]LogTexture:Display: Building textures: HQ_Lightmap1_166 (AutoDXT)
+[2016.07.21-16.05.42:363][336]LogTexture:Display: Building textures: HQ_Lightmap1_167 (AutoDXT)
+[2016.07.21-16.05.42:386][336]LogTexture:Display: Building textures: HQ_Lightmap1_168 (AutoDXT)
+[2016.07.21-16.05.42:408][336]LogTexture:Display: Building textures: HQ_Lightmap1_169 (AutoDXT)
+[2016.07.21-16.05.42:440][336]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2016.07.21-16.05.42:503][336]LogTexture:Display: Building textures: HQ_Lightmap1_170 (AutoDXT)
+[2016.07.21-16.05.42:532][336]LogTexture:Display: Building textures: HQ_Lightmap1_171 (AutoDXT)
+[2016.07.21-16.05.42:564][336]LogTexture:Display: Building textures: HQ_Lightmap1_172 (AutoDXT)
+[2016.07.21-16.05.42:581][336]LogTexture:Display: Building textures: HQ_Lightmap1_173 (AutoDXT)
+[2016.07.21-16.05.42:583][336]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2016.07.21-16.05.42:615][336]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2016.07.21-16.05.42:677][336]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.07.21-16.05.43:363][336]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2016.07.21-16.05.43:397][336]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2016.07.21-16.05.43:426][336]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2016.07.21-16.05.43:456][336]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2016.07.21-16.05.43:492][336]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2016.07.21-16.05.43:606][336]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2016.07.21-16.05.43:639][336]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2016.07.21-16.05.43:793][336]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2016.07.21-16.05.44:826][336]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2016.07.21-16.05.44:923][336]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2016.07.21-16.05.45:002][336]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.07.21-16.05.45:890][336]LogTexture:Display: Building textures: HQ_Lightmap1_30 (AutoDXT)
+[2016.07.21-16.05.45:932][336]LogTexture:Display: Building textures: HQ_Lightmap1_31 (AutoDXT)
+[2016.07.21-16.05.45:955][336]LogTexture:Display: Building textures: HQ_Lightmap1_32 (AutoDXT)
+[2016.07.21-16.05.45:983][336]LogTexture:Display: Building textures: HQ_Lightmap1_33 (AutoDXT)
+[2016.07.21-16.05.46:024][336]LogTexture:Display: Building textures: HQ_Lightmap1_34 (AutoDXT)
+[2016.07.21-16.05.46:054][336]LogTexture:Display: Building textures: HQ_Lightmap1_35 (AutoDXT)
+[2016.07.21-16.05.46:086][336]LogTexture:Display: Building textures: HQ_Lightmap1_36 (AutoDXT)
+[2016.07.21-16.05.46:126][336]LogTexture:Display: Building textures: HQ_Lightmap1_37 (AutoDXT)
+[2016.07.21-16.05.46:168][336]LogTexture:Display: Building textures: HQ_Lightmap1_38 (AutoDXT)
+[2016.07.21-16.05.46:269][336]LogTexture:Display: Building textures: HQ_Lightmap1_39 (AutoDXT)
+[2016.07.21-16.05.46:365][336]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.07.21-16.05.47:407][336]LogTexture:Display: Building textures: HQ_Lightmap1_40 (AutoDXT)
+[2016.07.21-16.05.47:448][336]LogTexture:Display: Building textures: HQ_Lightmap1_41 (AutoDXT)
+[2016.07.21-16.05.47:511][336]LogTexture:Display: Building textures: HQ_Lightmap1_42 (AutoDXT)
+[2016.07.21-16.05.47:537][336]LogTexture:Display: Building textures: HQ_Lightmap1_43 (AutoDXT)
+[2016.07.21-16.05.47:569][336]LogTexture:Display: Building textures: HQ_Lightmap1_44 (AutoDXT)
+[2016.07.21-16.05.47:591][336]LogTexture:Display: Building textures: HQ_Lightmap1_45 (AutoDXT)
+[2016.07.21-16.05.47:614][336]LogTexture:Display: Building textures: HQ_Lightmap1_46 (AutoDXT)
+[2016.07.21-16.05.47:645][336]LogTexture:Display: Building textures: HQ_Lightmap1_47 (AutoDXT)
+[2016.07.21-16.05.47:676][336]LogTexture:Display: Building textures: HQ_Lightmap1_48 (AutoDXT)
+[2016.07.21-16.05.47:724][336]LogTexture:Display: Building textures: HQ_Lightmap1_49 (AutoDXT)
+[2016.07.21-16.05.47:776][336]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.07.21-16.05.48:379][336]LogTexture:Display: Building textures: HQ_Lightmap1_50 (AutoDXT)
+[2016.07.21-16.05.48:409][336]LogTexture:Display: Building textures: HQ_Lightmap1_51 (AutoDXT)
+[2016.07.21-16.05.48:447][336]LogTexture:Display: Building textures: HQ_Lightmap1_52 (AutoDXT)
+[2016.07.21-16.05.48:557][336]LogTexture:Display: Building textures: HQ_Lightmap1_53 (AutoDXT)
+[2016.07.21-16.05.48:717][336]LogTexture:Display: Building textures: HQ_Lightmap1_54 (AutoDXT)
+[2016.07.21-16.05.48:749][336]LogTexture:Display: Building textures: HQ_Lightmap1_55 (AutoDXT)
+[2016.07.21-16.05.48:782][336]LogTexture:Display: Building textures: HQ_Lightmap1_56 (AutoDXT)
+[2016.07.21-16.05.48:814][336]LogTexture:Display: Building textures: HQ_Lightmap1_57 (AutoDXT)
+[2016.07.21-16.05.48:841][336]LogTexture:Display: Building textures: HQ_Lightmap1_58 (AutoDXT)
+[2016.07.21-16.05.48:874][336]LogTexture:Display: Building textures: HQ_Lightmap1_59 (AutoDXT)
+[2016.07.21-16.05.48:914][336]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.07.21-16.05.49:078][336]LogTexture:Display: Building textures: HQ_Lightmap1_60 (AutoDXT)
+[2016.07.21-16.05.49:110][336]LogTexture:Display: Building textures: HQ_Lightmap1_61 (AutoDXT)
+[2016.07.21-16.05.49:209][336]LogTexture:Display: Building textures: HQ_Lightmap1_62 (AutoDXT)
+[2016.07.21-16.05.50:110][336]LogTexture:Display: Building textures: HQ_Lightmap1_63 (AutoDXT)
+[2016.07.21-16.05.50:158][336]LogTexture:Display: Building textures: HQ_Lightmap1_64 (AutoDXT)
+[2016.07.21-16.05.50:285][336]LogTexture:Display: Building textures: HQ_Lightmap1_65 (AutoDXT)
+[2016.07.21-16.05.50:504][336]LogTexture:Display: Building textures: HQ_Lightmap1_66 (AutoDXT)
+[2016.07.21-16.05.50:536][336]LogTexture:Display: Building textures: HQ_Lightmap1_67 (AutoDXT)
+[2016.07.21-16.05.50:566][336]LogTexture:Display: Building textures: HQ_Lightmap1_68 (AutoDXT)
+[2016.07.21-16.05.50:593][336]LogTexture:Display: Building textures: HQ_Lightmap1_69 (AutoDXT)
+[2016.07.21-16.05.50:664][336]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.07.21-16.05.51:738][336]LogTexture:Display: Building textures: HQ_Lightmap1_70 (AutoDXT)
+[2016.07.21-16.05.51:762][336]LogTexture:Display: Building textures: HQ_Lightmap1_71 (AutoDXT)
+[2016.07.21-16.05.51:789][336]LogTexture:Display: Building textures: HQ_Lightmap1_72 (AutoDXT)
+[2016.07.21-16.05.51:815][336]LogTexture:Display: Building textures: HQ_Lightmap1_73 (AutoDXT)
+[2016.07.21-16.05.51:834][336]LogTexture:Display: Building textures: HQ_Lightmap1_74 (AutoDXT)
+[2016.07.21-16.05.51:853][336]LogTexture:Display: Building textures: HQ_Lightmap1_75 (AutoDXT)
+[2016.07.21-16.05.51:874][336]LogTexture:Display: Building textures: HQ_Lightmap1_76 (AutoDXT)
+[2016.07.21-16.05.52:024][336]LogTexture:Display: Building textures: HQ_Lightmap1_77 (AutoDXT)
+[2016.07.21-16.05.52:069][336]LogTexture:Display: Building textures: HQ_Lightmap1_78 (AutoDXT)
+[2016.07.21-16.05.52:099][336]LogTexture:Display: Building textures: HQ_Lightmap1_79 (AutoDXT)
+[2016.07.21-16.05.52:343][336]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.07.21-16.05.53:133][336]LogTexture:Display: Building textures: HQ_Lightmap1_80 (AutoDXT)
+[2016.07.21-16.05.53:252][336]LogTexture:Display: Building textures: HQ_Lightmap1_81 (AutoDXT)
+[2016.07.21-16.05.53:300][336]LogTexture:Display: Building textures: HQ_Lightmap1_82 (AutoDXT)
+[2016.07.21-16.05.53:332][336]LogTexture:Display: Building textures: HQ_Lightmap1_83 (AutoDXT)
+[2016.07.21-16.05.53:358][336]LogTexture:Display: Building textures: HQ_Lightmap1_84 (AutoDXT)
+[2016.07.21-16.05.53:393][336]LogTexture:Display: Building textures: HQ_Lightmap1_85 (AutoDXT)
+[2016.07.21-16.05.53:426][336]LogTexture:Display: Building textures: HQ_Lightmap1_86 (AutoDXT)
+[2016.07.21-16.05.53:462][336]LogTexture:Display: Building textures: HQ_Lightmap1_87 (AutoDXT)
+[2016.07.21-16.05.53:493][336]LogTexture:Display: Building textures: HQ_Lightmap1_88 (AutoDXT)
+[2016.07.21-16.05.53:530][336]LogTexture:Display: Building textures: HQ_Lightmap1_89 (AutoDXT)
+[2016.07.21-16.05.53:679][336]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.07.21-16.05.54:607][336]LogTexture:Display: Building textures: HQ_Lightmap1_90 (AutoDXT)
+[2016.07.21-16.05.54:702][336]LogTexture:Display: Building textures: HQ_Lightmap1_91 (AutoDXT)
+[2016.07.21-16.05.54:726][336]LogTexture:Display: Building textures: HQ_Lightmap1_92 (AutoDXT)
+[2016.07.21-16.05.54:755][336]LogTexture:Display: Building textures: HQ_Lightmap1_93 (AutoDXT)
+[2016.07.21-16.05.54:788][336]LogTexture:Display: Building textures: HQ_Lightmap1_94 (AutoDXT)
+[2016.07.21-16.05.54:818][336]LogTexture:Display: Building textures: HQ_Lightmap1_95 (AutoDXT)
+[2016.07.21-16.05.54:850][336]LogTexture:Display: Building textures: HQ_Lightmap1_96 (AutoDXT)
+[2016.07.21-16.05.54:878][336]LogTexture:Display: Building textures: HQ_Lightmap1_97 (AutoDXT)
+[2016.07.21-16.05.54:916][336]LogTexture:Display: Building textures: HQ_Lightmap1_98 (AutoDXT)
+[2016.07.21-16.05.55:039][336]LogTexture:Display: Building textures: HQ_Lightmap1_99 (AutoDXT)
+[2016.07.21-16.05.55:187][336]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.07.21-16.05.55:852][336]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.07.21-16.05.55:943][336]LogTexture:Display: Building textures: LQ_Lightmap_1_100 (DXT1)
+[2016.07.21-16.05.55:963][336]LogTexture:Display: Building textures: LQ_Lightmap_1_101 (DXT1)
+[2016.07.21-16.05.55:994][336]LogTexture:Display: Building textures: LQ_Lightmap_1_102 (DXT1)
+[2016.07.21-16.05.56:012][336]LogTexture:Display: Building textures: LQ_Lightmap_1_103 (DXT1)
+[2016.07.21-16.05.56:038][336]LogTexture:Display: Building textures: LQ_Lightmap_1_104 (DXT1)
+[2016.07.21-16.05.56:071][336]LogTexture:Display: Building textures: LQ_Lightmap_1_105 (DXT1)
+[2016.07.21-16.05.56:125][336]LogTexture:Display: Building textures: LQ_Lightmap_1_106 (DXT1)
+[2016.07.21-16.05.56:153][336]LogTexture:Display: Building textures: LQ_Lightmap_1_107 (DXT1)
+[2016.07.21-16.05.56:183][336]LogTexture:Display: Building textures: LQ_Lightmap_1_108 (DXT1)
+[2016.07.21-16.05.56:251][336]LogTexture:Display: Building textures: LQ_Lightmap_1_109 (DXT1)
+[2016.07.21-16.05.56:958][336]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2016.07.21-16.05.56:983][336]LogTexture:Display: Building textures: LQ_Lightmap_1_110 (DXT1)
+[2016.07.21-16.05.57:012][336]LogTexture:Display: Building textures: LQ_Lightmap_1_111 (DXT1)
+[2016.07.21-16.05.57:032][336]LogTexture:Display: Building textures: LQ_Lightmap_1_112 (DXT1)
+[2016.07.21-16.05.57:058][336]LogTexture:Display: Building textures: LQ_Lightmap_1_113 (DXT1)
+[2016.07.21-16.05.57:220][336]LogTexture:Display: Building textures: LQ_Lightmap_1_114 (DXT1)
+[2016.07.21-16.05.57:240][336]LogTexture:Display: Building textures: LQ_Lightmap_1_115 (DXT1)
+[2016.07.21-16.05.57:270][336]LogTexture:Display: Building textures: LQ_Lightmap_1_116 (DXT1)
+[2016.07.21-16.05.57:292][336]LogTexture:Display: Building textures: LQ_Lightmap_1_117 (DXT1)
+[2016.07.21-16.05.57:335][336]LogTexture:Display: Building textures: LQ_Lightmap_1_118 (DXT1)
+[2016.07.21-16.05.57:362][336]LogTexture:Display: Building textures: LQ_Lightmap_1_119 (DXT1)
+[2016.07.21-16.05.57:422][336]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2016.07.21-16.05.57:878][336]LogTexture:Display: Building textures: LQ_Lightmap_1_120 (DXT1)
+[2016.07.21-16.05.57:902][336]LogTexture:Display: Building textures: LQ_Lightmap_1_121 (DXT1)
+[2016.07.21-16.05.57:925][336]LogTexture:Display: Building textures: LQ_Lightmap_1_122 (DXT1)
+[2016.07.21-16.05.57:951][336]LogTexture:Display: Building textures: LQ_Lightmap_1_123 (DXT1)
+[2016.07.21-16.05.57:978][336]LogTexture:Display: Building textures: LQ_Lightmap_1_124 (DXT1)
+[2016.07.21-16.05.58:005][336]LogTexture:Display: Building textures: LQ_Lightmap_1_125 (DXT1)
+[2016.07.21-16.05.58:037][336]LogTexture:Display: Building textures: LQ_Lightmap_1_126 (DXT1)
+[2016.07.21-16.05.58:067][336]LogTexture:Display: Building textures: LQ_Lightmap_1_127 (DXT1)
+[2016.07.21-16.05.58:154][336]LogTexture:Display: Building textures: LQ_Lightmap_1_128 (DXT1)
+[2016.07.21-16.05.58:179][336]LogTexture:Display: Building textures: LQ_Lightmap_1_129 (DXT1)
+[2016.07.21-16.05.58:217][336]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2016.07.21-16.05.58:242][336]LogTexture:Display: Building textures: LQ_Lightmap_1_130 (DXT1)
+[2016.07.21-16.05.58:255][336]LogTexture:Display: Building textures: LQ_Lightmap_1_131 (DXT1)
+[2016.07.21-16.05.58:275][336]LogTexture:Display: Building textures: LQ_Lightmap_1_132 (DXT1)
+[2016.07.21-16.05.58:308][336]LogTexture:Display: Building textures: LQ_Lightmap_1_133 (DXT1)
+[2016.07.21-16.05.58:322][336]LogTexture:Display: Building textures: LQ_Lightmap_1_134 (DXT1)
+[2016.07.21-16.05.58:347][336]LogTexture:Display: Building textures: LQ_Lightmap_1_135 (DXT1)
+[2016.07.21-16.05.58:367][336]LogTexture:Display: Building textures: LQ_Lightmap_1_136 (DXT1)
+[2016.07.21-16.05.58:393][336]LogTexture:Display: Building textures: LQ_Lightmap_1_137 (DXT1)
+[2016.07.21-16.05.58:417][336]LogTexture:Display: Building textures: LQ_Lightmap_1_138 (DXT1)
+[2016.07.21-16.05.58:444][336]LogTexture:Display: Building textures: LQ_Lightmap_1_139 (DXT1)
+[2016.07.21-16.05.58:546][336]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2016.07.21-16.05.58:954][336]LogTexture:Display: Building textures: LQ_Lightmap_1_140 (DXT1)
+[2016.07.21-16.05.58:979][336]LogTexture:Display: Building textures: LQ_Lightmap_1_141 (DXT1)
+[2016.07.21-16.05.59:003][336]LogTexture:Display: Building textures: LQ_Lightmap_1_142 (DXT1)
+[2016.07.21-16.05.59:025][336]LogTexture:Display: Building textures: LQ_Lightmap_1_143 (DXT1)
+[2016.07.21-16.05.59:100][336]LogTexture:Display: Building textures: LQ_Lightmap_1_144 (DXT1)
+[2016.07.21-16.05.59:600][336]LogTexture:Display: Building textures: LQ_Lightmap_1_145 (DXT1)
+[2016.07.21-16.05.59:646][336]LogTexture:Display: Building textures: LQ_Lightmap_1_146 (DXT1)
+[2016.07.21-16.05.59:674][336]LogTexture:Display: Building textures: LQ_Lightmap_1_147 (DXT1)
+[2016.07.21-16.05.59:696][336]LogTexture:Display: Building textures: LQ_Lightmap_1_148 (DXT1)
+[2016.07.21-16.05.59:716][336]LogTexture:Display: Building textures: LQ_Lightmap_1_149 (DXT1)
+[2016.07.21-16.05.59:793][336]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2016.07.21-16.06.00:532][336]LogTexture:Display: Building textures: LQ_Lightmap_1_150 (DXT1)
+[2016.07.21-16.06.00:565][336]LogTexture:Display: Building textures: LQ_Lightmap_1_151 (DXT1)
+[2016.07.21-16.06.00:693][336]LogTexture:Display: Building textures: LQ_Lightmap_1_152 (DXT1)
+[2016.07.21-16.06.00:726][336]LogTexture:Display: Building textures: LQ_Lightmap_1_153 (DXT1)
+[2016.07.21-16.06.00:750][336]LogTexture:Display: Building textures: LQ_Lightmap_1_154 (DXT1)
+[2016.07.21-16.06.00:805][336]LogTexture:Display: Building textures: LQ_Lightmap_1_155 (DXT1)
+[2016.07.21-16.06.01:211][336]LogTexture:Display: Building textures: LQ_Lightmap_1_156 (DXT1)
+[2016.07.21-16.06.01:318][336]LogTexture:Display: Building textures: LQ_Lightmap_1_157 (DXT1)
+[2016.07.21-16.06.01:332][336]LogTexture:Display: Building textures: LQ_Lightmap_1_158 (DXT1)
+[2016.07.21-16.06.01:364][336]LogTexture:Display: Building textures: LQ_Lightmap_1_159 (DXT1)
+[2016.07.21-16.06.01:471][336]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2016.07.21-16.06.01:772][336]LogTexture:Display: Building textures: LQ_Lightmap_1_160 (DXT1)
+[2016.07.21-16.06.01:786][336]LogTexture:Display: Building textures: LQ_Lightmap_1_161 (DXT1)
+[2016.07.21-16.06.01:833][336]LogTexture:Display: Building textures: LQ_Lightmap_1_162 (DXT1)
+[2016.07.21-16.06.01:881][336]LogTexture:Display: Building textures: LQ_Lightmap_1_163 (DXT1)
+[2016.07.21-16.06.02:105][336]LogTexture:Display: Building textures: LQ_Lightmap_1_164 (DXT1)
+[2016.07.21-16.06.02:133][336]LogTexture:Display: Building textures: LQ_Lightmap_1_165 (DXT1)
+[2016.07.21-16.06.02:156][336]LogTexture:Display: Building textures: LQ_Lightmap_1_166 (DXT1)
+[2016.07.21-16.06.02:179][336]LogTexture:Display: Building textures: LQ_Lightmap_1_167 (DXT1)
+[2016.07.21-16.06.02:196][336]LogTexture:Display: Building textures: LQ_Lightmap_1_168 (DXT1)
+[2016.07.21-16.06.02:211][336]LogTexture:Display: Building textures: LQ_Lightmap_1_169 (DXT1)
+[2016.07.21-16.06.02:232][336]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2016.07.21-16.06.02:280][336]LogTexture:Display: Building textures: LQ_Lightmap_1_170 (DXT1)
+[2016.07.21-16.06.02:310][336]LogTexture:Display: Building textures: LQ_Lightmap_1_171 (DXT1)
+[2016.07.21-16.06.02:337][336]LogTexture:Display: Building textures: LQ_Lightmap_1_172 (DXT1)
+[2016.07.21-16.06.02:351][336]LogTexture:Display: Building textures: LQ_Lightmap_1_173 (DXT1)
+[2016.07.21-16.06.02:357][336]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2016.07.21-16.06.02:386][336]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2016.07.21-16.06.02:442][336]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.07.21-16.06.02:919][336]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2016.07.21-16.06.02:942][336]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2016.07.21-16.06.02:965][336]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2016.07.21-16.06.02:990][336]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2016.07.21-16.06.03:020][336]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2016.07.21-16.06.03:083][336]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2016.07.21-16.06.03:107][336]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2016.07.21-16.06.03:220][336]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2016.07.21-16.06.03:831][336]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2016.07.21-16.06.03:890][336]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2016.07.21-16.06.03:951][336]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.07.21-16.06.04:424][336]LogTexture:Display: Building textures: LQ_Lightmap_1_30 (DXT1)
+[2016.07.21-16.06.04:439][336]LogTexture:Display: Building textures: LQ_Lightmap_1_31 (DXT1)
+[2016.07.21-16.06.04:453][336]LogTexture:Display: Building textures: LQ_Lightmap_1_32 (DXT1)
+[2016.07.21-16.06.04:468][336]LogTexture:Display: Building textures: LQ_Lightmap_1_33 (DXT1)
+[2016.07.21-16.06.04:493][336]LogTexture:Display: Building textures: LQ_Lightmap_1_34 (DXT1)
+[2016.07.21-16.06.04:515][336]LogTexture:Display: Building textures: LQ_Lightmap_1_35 (DXT1)
+[2016.07.21-16.06.04:536][336]LogTexture:Display: Building textures: LQ_Lightmap_1_36 (DXT1)
+[2016.07.21-16.06.04:552][336]LogTexture:Display: Building textures: LQ_Lightmap_1_37 (DXT1)
+[2016.07.21-16.06.04:580][336]LogTexture:Display: Building textures: LQ_Lightmap_1_38 (DXT1)
+[2016.07.21-16.06.04:638][336]LogTexture:Display: Building textures: LQ_Lightmap_1_39 (DXT1)
+[2016.07.21-16.06.04:697][336]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.07.21-16.06.05:249][336]LogTexture:Display: Building textures: LQ_Lightmap_1_40 (DXT1)
+[2016.07.21-16.06.05:268][336]LogTexture:Display: Building textures: LQ_Lightmap_1_41 (DXT1)
+[2016.07.21-16.06.05:309][336]LogTexture:Display: Building textures: LQ_Lightmap_1_42 (DXT1)
+[2016.07.21-16.06.05:326][336]LogTexture:Display: Building textures: LQ_Lightmap_1_43 (DXT1)
+[2016.07.21-16.06.05:346][336]LogTexture:Display: Building textures: LQ_Lightmap_1_44 (DXT1)
+[2016.07.21-16.06.05:361][336]LogTexture:Display: Building textures: LQ_Lightmap_1_45 (DXT1)
+[2016.07.21-16.06.05:373][336]LogTexture:Display: Building textures: LQ_Lightmap_1_46 (DXT1)
+[2016.07.21-16.06.05:391][336]LogTexture:Display: Building textures: LQ_Lightmap_1_47 (DXT1)
+[2016.07.21-16.06.05:409][336]LogTexture:Display: Building textures: LQ_Lightmap_1_48 (DXT1)
+[2016.07.21-16.06.05:430][336]LogTexture:Display: Building textures: LQ_Lightmap_1_49 (DXT1)
+[2016.07.21-16.06.05:466][336]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.07.21-16.06.05:727][336]LogTexture:Display: Building textures: LQ_Lightmap_1_50 (DXT1)
+[2016.07.21-16.06.05:748][336]LogTexture:Display: Building textures: LQ_Lightmap_1_51 (DXT1)
+[2016.07.21-16.06.05:774][336]LogTexture:Display: Building textures: LQ_Lightmap_1_52 (DXT1)
+[2016.07.21-16.06.05:825][336]LogTexture:Display: Building textures: LQ_Lightmap_1_53 (DXT1)
+[2016.07.21-16.06.05:919][336]LogTexture:Display: Building textures: LQ_Lightmap_1_54 (DXT1)
+[2016.07.21-16.06.05:935][336]LogTexture:Display: Building textures: LQ_Lightmap_1_55 (DXT1)
+[2016.07.21-16.06.05:953][336]LogTexture:Display: Building textures: LQ_Lightmap_1_56 (DXT1)
+[2016.07.21-16.06.05:976][336]LogTexture:Display: Building textures: LQ_Lightmap_1_57 (DXT1)
+[2016.07.21-16.06.05:991][336]LogTexture:Display: Building textures: LQ_Lightmap_1_58 (DXT1)
+[2016.07.21-16.06.06:005][336]LogTexture:Display: Building textures: LQ_Lightmap_1_59 (DXT1)
+[2016.07.21-16.06.06:029][336]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.07.21-16.06.06:108][336]LogTexture:Display: Building textures: LQ_Lightmap_1_60 (DXT1)
+[2016.07.21-16.06.06:127][336]LogTexture:Display: Building textures: LQ_Lightmap_1_61 (DXT1)
+[2016.07.21-16.06.06:197][336]LogTexture:Display: Building textures: LQ_Lightmap_1_62 (DXT1)
+[2016.07.21-16.06.06:690][336]LogTexture:Display: Building textures: LQ_Lightmap_1_63 (DXT1)
+[2016.07.21-16.06.06:717][336]LogTexture:Display: Building textures: LQ_Lightmap_1_64 (DXT1)
+[2016.07.21-16.06.06:787][336]LogTexture:Display: Building textures: LQ_Lightmap_1_65 (DXT1)
+[2016.07.21-16.06.06:949][336]LogTexture:Display: Building textures: LQ_Lightmap_1_66 (DXT1)
+[2016.07.21-16.06.06:971][336]LogTexture:Display: Building textures: LQ_Lightmap_1_67 (DXT1)
+[2016.07.21-16.06.06:993][336]LogTexture:Display: Building textures: LQ_Lightmap_1_68 (DXT1)
+[2016.07.21-16.06.07:011][336]LogTexture:Display: Building textures: LQ_Lightmap_1_69 (DXT1)
+[2016.07.21-16.06.07:062][336]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.07.21-16.06.07:603][336]LogTexture:Display: Building textures: LQ_Lightmap_1_70 (DXT1)
+[2016.07.21-16.06.07:620][336]LogTexture:Display: Building textures: LQ_Lightmap_1_71 (DXT1)
+[2016.07.21-16.06.07:632][336]LogTexture:Display: Building textures: LQ_Lightmap_1_72 (DXT1)
+[2016.07.21-16.06.07:653][336]LogTexture:Display: Building textures: LQ_Lightmap_1_73 (DXT1)
+[2016.07.21-16.06.07:663][336]LogTexture:Display: Building textures: LQ_Lightmap_1_74 (DXT1)
+[2016.07.21-16.06.07:670][336]LogTexture:Display: Building textures: LQ_Lightmap_1_75 (DXT1)
+[2016.07.21-16.06.07:682][336]LogTexture:Display: Building textures: LQ_Lightmap_1_76 (DXT1)
+[2016.07.21-16.06.07:790][336]LogTexture:Display: Building textures: LQ_Lightmap_1_77 (DXT1)
+[2016.07.21-16.06.07:813][336]LogTexture:Display: Building textures: LQ_Lightmap_1_78 (DXT1)
+[2016.07.21-16.06.07:834][336]LogTexture:Display: Building textures: LQ_Lightmap_1_79 (DXT1)
+[2016.07.21-16.06.07:985][336]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.07.21-16.06.08:468][336]LogTexture:Display: Building textures: LQ_Lightmap_1_80 (DXT1)
+[2016.07.21-16.06.08:537][336]LogTexture:Display: Building textures: LQ_Lightmap_1_81 (DXT1)
+[2016.07.21-16.06.08:573][336]LogTexture:Display: Building textures: LQ_Lightmap_1_82 (DXT1)
+[2016.07.21-16.06.08:594][336]LogTexture:Display: Building textures: LQ_Lightmap_1_83 (DXT1)
+[2016.07.21-16.06.08:614][336]LogTexture:Display: Building textures: LQ_Lightmap_1_84 (DXT1)
+[2016.07.21-16.06.08:644][336]LogTexture:Display: Building textures: LQ_Lightmap_1_85 (DXT1)
+[2016.07.21-16.06.08:667][336]LogTexture:Display: Building textures: LQ_Lightmap_1_86 (DXT1)
+[2016.07.21-16.06.08:693][336]LogTexture:Display: Building textures: LQ_Lightmap_1_87 (DXT1)
+[2016.07.21-16.06.08:717][336]LogTexture:Display: Building textures: LQ_Lightmap_1_88 (DXT1)
+[2016.07.21-16.06.08:745][336]LogTexture:Display: Building textures: LQ_Lightmap_1_89 (DXT1)
+[2016.07.21-16.06.08:851][336]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2016.07.21-16.06.09:366][336]LogTexture:Display: Building textures: LQ_Lightmap_1_90 (DXT1)
+[2016.07.21-16.06.09:421][336]LogTexture:Display: Building textures: LQ_Lightmap_1_91 (DXT1)
+[2016.07.21-16.06.09:436][336]LogTexture:Display: Building textures: LQ_Lightmap_1_92 (DXT1)
+[2016.07.21-16.06.09:457][336]LogTexture:Display: Building textures: LQ_Lightmap_1_93 (DXT1)
+[2016.07.21-16.06.09:486][336]LogTexture:Display: Building textures: LQ_Lightmap_1_94 (DXT1)
+[2016.07.21-16.06.09:511][336]LogTexture:Display: Building textures: LQ_Lightmap_1_95 (DXT1)
+[2016.07.21-16.06.09:534][336]LogTexture:Display: Building textures: LQ_Lightmap_1_96 (DXT1)
+[2016.07.21-16.06.09:554][336]LogTexture:Display: Building textures: LQ_Lightmap_1_97 (DXT1)
+[2016.07.21-16.06.09:576][336]LogTexture:Display: Building textures: LQ_Lightmap_1_98 (DXT1)
+[2016.07.21-16.06.09:649][336]LogTexture:Display: Building textures: LQ_Lightmap_1_99 (DXT1)
+[2016.07.21-16.06.09:713][336]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.07.21-16.06.10:081][336]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2016.07.21-16.06.10:130][336]LogTexture:Display: Building textures: SkyOcclusion1_100 (AutoDXT)
+[2016.07.21-16.06.10:144][336]LogTexture:Display: Building textures: SkyOcclusion1_101 (AutoDXT)
+[2016.07.21-16.06.10:158][336]LogTexture:Display: Building textures: SkyOcclusion1_102 (AutoDXT)
+[2016.07.21-16.06.10:171][336]LogTexture:Display: Building textures: SkyOcclusion1_103 (AutoDXT)
+[2016.07.21-16.06.10:184][336]LogTexture:Display: Building textures: SkyOcclusion1_104 (AutoDXT)
+[2016.07.21-16.06.10:194][336]LogTexture:Display: Building textures: SkyOcclusion1_105 (AutoDXT)
+[2016.07.21-16.06.10:234][336]LogTexture:Display: Building textures: SkyOcclusion1_106 (AutoDXT)
+[2016.07.21-16.06.10:255][336]LogTexture:Display: Building textures: SkyOcclusion1_107 (AutoDXT)
+[2016.07.21-16.06.10:272][336]LogTexture:Display: Building textures: SkyOcclusion1_108 (AutoDXT)
+[2016.07.21-16.06.10:306][336]LogTexture:Display: Building textures: SkyOcclusion1_109 (AutoDXT)
+[2016.07.21-16.06.10:693][336]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT)
+[2016.07.21-16.06.10:716][336]LogTexture:Display: Building textures: SkyOcclusion1_110 (AutoDXT)
+[2016.07.21-16.06.10:740][336]LogTexture:Display: Building textures: SkyOcclusion1_111 (AutoDXT)
+[2016.07.21-16.06.10:749][336]LogTexture:Display: Building textures: SkyOcclusion1_112 (AutoDXT)
+[2016.07.21-16.06.10:766][336]LogTexture:Display: Building textures: SkyOcclusion1_113 (AutoDXT)
+[2016.07.21-16.06.10:846][336]LogTexture:Display: Building textures: SkyOcclusion1_114 (AutoDXT)
+[2016.07.21-16.06.10:862][336]LogTexture:Display: Building textures: SkyOcclusion1_115 (AutoDXT)
+[2016.07.21-16.06.10:889][336]LogTexture:Display: Building textures: SkyOcclusion1_116 (AutoDXT)
+[2016.07.21-16.06.10:901][336]LogTexture:Display: Building textures: SkyOcclusion1_117 (AutoDXT)
+[2016.07.21-16.06.10:932][336]LogTexture:Display: Building textures: SkyOcclusion1_118 (AutoDXT)
+[2016.07.21-16.06.10:950][336]LogTexture:Display: Building textures: SkyOcclusion1_119 (AutoDXT)
+[2016.07.21-16.06.10:984][336]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT)
+[2016.07.21-16.06.11:211][336]LogTexture:Display: Building textures: SkyOcclusion1_120 (AutoDXT)
+[2016.07.21-16.06.11:227][336]LogTexture:Display: Building textures: SkyOcclusion1_121 (AutoDXT)
+[2016.07.21-16.06.11:244][336]LogTexture:Display: Building textures: SkyOcclusion1_122 (AutoDXT)
+[2016.07.21-16.06.11:259][336]LogTexture:Display: Building textures: SkyOcclusion1_123 (AutoDXT)
+[2016.07.21-16.06.11:277][336]LogTexture:Display: Building textures: SkyOcclusion1_124 (AutoDXT)
+[2016.07.21-16.06.11:297][336]LogTexture:Display: Building textures: SkyOcclusion1_125 (AutoDXT)
+[2016.07.21-16.06.11:322][336]LogTexture:Display: Building textures: SkyOcclusion1_126 (AutoDXT)
+[2016.07.21-16.06.11:339][336]LogTexture:Display: Building textures: SkyOcclusion1_127 (AutoDXT)
+[2016.07.21-16.06.11:385][336]LogTexture:Display: Building textures: SkyOcclusion1_128 (AutoDXT)
+[2016.07.21-16.06.11:404][336]LogTexture:Display: Building textures: SkyOcclusion1_129 (AutoDXT)
+[2016.07.21-16.06.11:437][336]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT)
+[2016.07.21-16.06.11:460][336]LogTexture:Display: Building textures: SkyOcclusion1_130 (AutoDXT)
+[2016.07.21-16.06.11:470][336]LogTexture:Display: Building textures: SkyOcclusion1_131 (AutoDXT)
+[2016.07.21-16.06.11:481][336]LogTexture:Display: Building textures: SkyOcclusion1_132 (AutoDXT)
+[2016.07.21-16.06.11:511][336]LogTexture:Display: Building textures: SkyOcclusion1_133 (AutoDXT)
+[2016.07.21-16.06.11:521][336]LogTexture:Display: Building textures: SkyOcclusion1_134 (AutoDXT)
+[2016.07.21-16.06.11:532][336]LogTexture:Display: Building textures: SkyOcclusion1_135 (AutoDXT)
+[2016.07.21-16.06.11:552][336]LogTexture:Display: Building textures: SkyOcclusion1_136 (AutoDXT)
+[2016.07.21-16.06.11:571][336]LogTexture:Display: Building textures: SkyOcclusion1_137 (AutoDXT)
+[2016.07.21-16.06.11:590][336]LogTexture:Display: Building textures: SkyOcclusion1_138 (AutoDXT)
+[2016.07.21-16.06.11:611][336]LogTexture:Display: Building textures: SkyOcclusion1_139 (AutoDXT)
+[2016.07.21-16.06.11:678][336]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT)
+[2016.07.21-16.06.11:921][336]LogTexture:Display: Building textures: SkyOcclusion1_140 (AutoDXT)
+[2016.07.21-16.06.11:946][336]LogTexture:Display: Building textures: SkyOcclusion1_141 (AutoDXT)
+[2016.07.21-16.06.11:970][336]LogTexture:Display: Building textures: SkyOcclusion1_142 (AutoDXT)
+[2016.07.21-16.06.11:992][336]LogTexture:Display: Building textures: SkyOcclusion1_143 (AutoDXT)
+[2016.07.21-16.06.12:028][336]LogTexture:Display: Building textures: SkyOcclusion1_144 (AutoDXT)
+[2016.07.21-16.06.12:285][336]LogTexture:Display: Building textures: SkyOcclusion1_145 (AutoDXT)
+[2016.07.21-16.06.12:315][336]LogTexture:Display: Building textures: SkyOcclusion1_146 (AutoDXT)
+[2016.07.21-16.06.12:334][336]LogTexture:Display: Building textures: SkyOcclusion1_147 (AutoDXT)
+[2016.07.21-16.06.12:350][336]LogTexture:Display: Building textures: SkyOcclusion1_148 (AutoDXT)
+[2016.07.21-16.06.12:367][336]LogTexture:Display: Building textures: SkyOcclusion1_149 (AutoDXT)
+[2016.07.21-16.06.12:413][336]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT)
+[2016.07.21-16.06.12:821][336]LogTexture:Display: Building textures: SkyOcclusion1_150 (AutoDXT)
+[2016.07.21-16.06.12:842][336]LogTexture:Display: Building textures: SkyOcclusion1_151 (AutoDXT)
+[2016.07.21-16.06.12:909][336]LogTexture:Display: Building textures: SkyOcclusion1_152 (AutoDXT)
+[2016.07.21-16.06.12:937][336]LogTexture:Display: Building textures: SkyOcclusion1_153 (AutoDXT)
+[2016.07.21-16.06.12:950][336]LogTexture:Display: Building textures: SkyOcclusion1_154 (AutoDXT)
+[2016.07.21-16.06.12:978][336]LogTexture:Display: Building textures: SkyOcclusion1_155 (AutoDXT)
+[2016.07.21-16.06.13:236][336]LogTexture:Display: Building textures: SkyOcclusion1_156 (AutoDXT)
+[2016.07.21-16.06.13:291][336]LogTexture:Display: Building textures: SkyOcclusion1_157 (AutoDXT)
+[2016.07.21-16.06.13:305][336]LogTexture:Display: Building textures: SkyOcclusion1_158 (AutoDXT)
+[2016.07.21-16.06.13:336][336]LogTexture:Display: Building textures: SkyOcclusion1_159 (AutoDXT)
+[2016.07.21-16.06.13:381][336]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT)
+[2016.07.21-16.06.13:525][336]LogTexture:Display: Building textures: SkyOcclusion1_160 (AutoDXT)
+[2016.07.21-16.06.13:540][336]LogTexture:Display: Building textures: SkyOcclusion1_161 (AutoDXT)
+[2016.07.21-16.06.13:567][336]LogTexture:Display: Building textures: SkyOcclusion1_162 (AutoDXT)
+[2016.07.21-16.06.13:597][336]LogTexture:Display: Building textures: SkyOcclusion1_163 (AutoDXT)
+[2016.07.21-16.06.13:740][336]LogTexture:Display: Building textures: SkyOcclusion1_164 (AutoDXT)
+[2016.07.21-16.06.13:770][336]LogTexture:Display: Building textures: SkyOcclusion1_165 (AutoDXT)
+[2016.07.21-16.06.13:780][336]LogTexture:Display: Building textures: SkyOcclusion1_166 (AutoDXT)
+[2016.07.21-16.06.13:795][336]LogTexture:Display: Building textures: SkyOcclusion1_167 (AutoDXT)
+[2016.07.21-16.06.13:807][336]LogTexture:Display: Building textures: SkyOcclusion1_168 (AutoDXT)
+[2016.07.21-16.06.13:819][336]LogTexture:Display: Building textures: SkyOcclusion1_169 (AutoDXT)
+[2016.07.21-16.06.13:833][336]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT)
+[2016.07.21-16.06.13:866][336]LogTexture:Display: Building textures: SkyOcclusion1_170 (AutoDXT)
+[2016.07.21-16.06.13:883][336]LogTexture:Display: Building textures: SkyOcclusion1_171 (AutoDXT)
+[2016.07.21-16.06.13:902][336]LogTexture:Display: Building textures: SkyOcclusion1_172 (AutoDXT)
+[2016.07.21-16.06.13:913][336]LogTexture:Display: Building textures: SkyOcclusion1_173 (AutoDXT)
+[2016.07.21-16.06.13:916][336]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT)
+[2016.07.21-16.06.13:930][336]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT)
+[2016.07.21-16.06.13:963][336]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.07.21-16.06.14:231][336]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT)
+[2016.07.21-16.06.14:247][336]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT)
+[2016.07.21-16.06.14:258][336]LogTexture:Display: Building textures: SkyOcclusion1_22 (AutoDXT)
+[2016.07.21-16.06.14:268][336]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT)
+[2016.07.21-16.06.14:289][336]LogTexture:Display: Building textures: SkyOcclusion1_24 (AutoDXT)
+[2016.07.21-16.06.14:324][336]LogTexture:Display: Building textures: SkyOcclusion1_25 (AutoDXT)
+[2016.07.21-16.06.14:337][336]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT)
+[2016.07.21-16.06.14:387][336]LogTexture:Display: Building textures: SkyOcclusion1_27 (AutoDXT)
+[2016.07.21-16.06.14:718][336]LogTexture:Display: Building textures: SkyOcclusion1_28 (AutoDXT)
+[2016.07.21-16.06.14:755][336]LogTexture:Display: Building textures: SkyOcclusion1_29 (AutoDXT)
+[2016.07.21-16.06.14:783][336]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.07.21-16.06.15:080][336]LogTexture:Display: Building textures: SkyOcclusion1_30 (AutoDXT)
+[2016.07.21-16.06.15:092][336]LogTexture:Display: Building textures: SkyOcclusion1_31 (AutoDXT)
+[2016.07.21-16.06.15:101][336]LogTexture:Display: Building textures: SkyOcclusion1_32 (AutoDXT)
+[2016.07.21-16.06.15:109][336]LogTexture:Display: Building textures: SkyOcclusion1_33 (AutoDXT)
+[2016.07.21-16.06.15:126][336]LogTexture:Display: Building textures: SkyOcclusion1_34 (AutoDXT)
+[2016.07.21-16.06.15:140][336]LogTexture:Display: Building textures: SkyOcclusion1_35 (AutoDXT)
+[2016.07.21-16.06.15:158][336]LogTexture:Display: Building textures: SkyOcclusion1_36 (AutoDXT)
+[2016.07.21-16.06.15:170][336]LogTexture:Display: Building textures: SkyOcclusion1_37 (AutoDXT)
+[2016.07.21-16.06.15:190][336]LogTexture:Display: Building textures: SkyOcclusion1_38 (AutoDXT)
+[2016.07.21-16.06.15:223][336]LogTexture:Display: Building textures: SkyOcclusion1_39 (AutoDXT)
+[2016.07.21-16.06.15:262][336]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.07.21-16.06.15:585][336]LogTexture:Display: Building textures: SkyOcclusion1_40 (AutoDXT)
+[2016.07.21-16.06.15:597][336]LogTexture:Display: Building textures: SkyOcclusion1_41 (AutoDXT)
+[2016.07.21-16.06.15:633][336]LogTexture:Display: Building textures: SkyOcclusion1_42 (AutoDXT)
+[2016.07.21-16.06.15:643][336]LogTexture:Display: Building textures: SkyOcclusion1_43 (AutoDXT)
+[2016.07.21-16.06.15:658][336]LogTexture:Display: Building textures: SkyOcclusion1_44 (AutoDXT)
+[2016.07.21-16.06.15:669][336]LogTexture:Display: Building textures: SkyOcclusion1_45 (AutoDXT)
+[2016.07.21-16.06.15:676][336]LogTexture:Display: Building textures: SkyOcclusion1_46 (AutoDXT)
+[2016.07.21-16.06.15:689][336]LogTexture:Display: Building textures: SkyOcclusion1_47 (AutoDXT)
+[2016.07.21-16.06.15:703][336]LogTexture:Display: Building textures: SkyOcclusion1_48 (AutoDXT)
+[2016.07.21-16.06.15:717][336]LogTexture:Display: Building textures: SkyOcclusion1_49 (AutoDXT)
+[2016.07.21-16.06.15:739][336]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.07.21-16.06.15:898][336]LogTexture:Display: Building textures: SkyOcclusion1_50 (AutoDXT)
+[2016.07.21-16.06.15:913][336]LogTexture:Display: Building textures: SkyOcclusion1_51 (AutoDXT)
+[2016.07.21-16.06.15:931][336]LogTexture:Display: Building textures: SkyOcclusion1_52 (AutoDXT)
+[2016.07.21-16.06.15:960][336]LogTexture:Display: Building textures: SkyOcclusion1_53 (AutoDXT)
+[2016.07.21-16.06.16:013][336]LogTexture:Display: Building textures: SkyOcclusion1_54 (AutoDXT)
+[2016.07.21-16.06.16:025][336]LogTexture:Display: Building textures: SkyOcclusion1_55 (AutoDXT)
+[2016.07.21-16.06.16:083][336]LogTexture:Display: Building textures: SkyOcclusion1_56 (AutoDXT)
+[2016.07.21-16.06.16:099][336]LogTexture:Display: Building textures: SkyOcclusion1_57 (AutoDXT)
+[2016.07.21-16.06.16:111][336]LogTexture:Display: Building textures: SkyOcclusion1_58 (AutoDXT)
+[2016.07.21-16.06.16:123][336]LogTexture:Display: Building textures: SkyOcclusion1_59 (AutoDXT)
+[2016.07.21-16.06.16:133][336]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.07.21-16.06.16:181][336]LogTexture:Display: Building textures: SkyOcclusion1_60 (AutoDXT)
+[2016.07.21-16.06.16:191][336]LogTexture:Display: Building textures: SkyOcclusion1_61 (AutoDXT)
+[2016.07.21-16.06.16:233][336]LogTexture:Display: Building textures: SkyOcclusion1_62 (AutoDXT)
+[2016.07.21-16.06.16:526][336]LogTexture:Display: Building textures: SkyOcclusion1_63 (AutoDXT)
+[2016.07.21-16.06.16:543][336]LogTexture:Display: Building textures: SkyOcclusion1_64 (AutoDXT)
+[2016.07.21-16.06.16:583][336]LogTexture:Display: Building textures: SkyOcclusion1_65 (AutoDXT)
+[2016.07.21-16.06.16:670][336]LogTexture:Display: Building textures: SkyOcclusion1_66 (AutoDXT)
+[2016.07.21-16.06.16:685][336]LogTexture:Display: Building textures: SkyOcclusion1_67 (AutoDXT)
+[2016.07.21-16.06.16:709][336]LogTexture:Display: Building textures: SkyOcclusion1_68 (AutoDXT)
+[2016.07.21-16.06.16:721][336]LogTexture:Display: Building textures: SkyOcclusion1_69 (AutoDXT)
+[2016.07.21-16.06.16:745][336]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2016.07.21-16.06.17:109][336]LogTexture:Display: Building textures: SkyOcclusion1_70 (AutoDXT)
+[2016.07.21-16.06.17:122][336]LogTexture:Display: Building textures: SkyOcclusion1_71 (AutoDXT)
+[2016.07.21-16.06.17:133][336]LogTexture:Display: Building textures: SkyOcclusion1_72 (AutoDXT)
+[2016.07.21-16.06.17:147][336]LogTexture:Display: Building textures: SkyOcclusion1_73 (AutoDXT)
+[2016.07.21-16.06.17:155][336]LogTexture:Display: Building textures: SkyOcclusion1_74 (AutoDXT)
+[2016.07.21-16.06.17:162][336]LogTexture:Display: Building textures: SkyOcclusion1_75 (AutoDXT)
+[2016.07.21-16.06.17:169][336]LogTexture:Display: Building textures: SkyOcclusion1_76 (AutoDXT)
+[2016.07.21-16.06.17:222][336]LogTexture:Display: Building textures: SkyOcclusion1_77 (AutoDXT)
+[2016.07.21-16.06.17:239][336]LogTexture:Display: Building textures: SkyOcclusion1_78 (AutoDXT)
+[2016.07.21-16.06.17:251][336]LogTexture:Display: Building textures: SkyOcclusion1_79 (AutoDXT)
+[2016.07.21-16.06.17:331][336]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2016.07.21-16.06.17:691][336]LogTexture:Display: Building textures: SkyOcclusion1_80 (AutoDXT)
+[2016.07.21-16.06.17:726][336]LogTexture:Display: Building textures: SkyOcclusion1_81 (AutoDXT)
+[2016.07.21-16.06.17:758][336]LogTexture:Display: Building textures: SkyOcclusion1_82 (AutoDXT)
+[2016.07.21-16.06.17:772][336]LogTexture:Display: Building textures: SkyOcclusion1_83 (AutoDXT)
+[2016.07.21-16.06.17:785][336]LogTexture:Display: Building textures: SkyOcclusion1_84 (AutoDXT)
+[2016.07.21-16.06.17:810][336]LogTexture:Display: Building textures: SkyOcclusion1_85 (AutoDXT)
+[2016.07.21-16.06.17:827][336]LogTexture:Display: Building textures: SkyOcclusion1_86 (AutoDXT)
+[2016.07.21-16.06.17:846][336]LogTexture:Display: Building textures: SkyOcclusion1_87 (AutoDXT)
+[2016.07.21-16.06.17:862][336]LogTexture:Display: Building textures: SkyOcclusion1_88 (AutoDXT)
+[2016.07.21-16.06.17:884][336]LogTexture:Display: Building textures: SkyOcclusion1_89 (AutoDXT)
+[2016.07.21-16.06.17:948][336]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2016.07.21-16.06.18:275][336]LogTexture:Display: Building textures: SkyOcclusion1_90 (AutoDXT)
+[2016.07.21-16.06.18:304][336]LogTexture:Display: Building textures: SkyOcclusion1_91 (AutoDXT)
+[2016.07.21-16.06.18:322][336]LogTexture:Display: Building textures: SkyOcclusion1_92 (AutoDXT)
+[2016.07.21-16.06.18:341][336]LogTexture:Display: Building textures: SkyOcclusion1_93 (AutoDXT)
+[2016.07.21-16.06.18:358][336]LogTexture:Display: Building textures: SkyOcclusion1_94 (AutoDXT)
+[2016.07.21-16.06.18:378][336]LogTexture:Display: Building textures: SkyOcclusion1_95 (AutoDXT)
+[2016.07.21-16.06.18:396][336]LogTexture:Display: Building textures: SkyOcclusion1_96 (AutoDXT)
+[2016.07.21-16.06.18:413][336]LogTexture:Display: Building textures: SkyOcclusion1_97 (AutoDXT)
+[2016.07.21-16.06.18:424][336]LogTexture:Display: Building textures: SkyOcclusion1_98 (AutoDXT)
+[2016.07.21-16.06.18:477][336]LogTexture:Display: Building textures: SkyOcclusion1_99 (AutoDXT)
+[2016.07.21-16.06.18:534][336]LogMaterial: Missing cached shader map for material M_Trans_Sprite_SubUV_Master_DepthFade, compiling. 
+[2016.07.21-16.06.18:548][336]LogMaterial: Missing cached shader map for material M_Trans_Sprite_SubUV_Master, compiling. 
+[2016.07.21-16.06.18:572][336]LogTexture:Display: Building textures: T_Sparkle_Flakes (AutoDXT)
+[2016.07.21-16.06.18:659][336]LogTexture:Display: Building textures: T_starFlare_02 (AutoDXT)
+[2016.07.21-16.06.18:763][336]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.07.21-16.06.19:206][336]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.07.21-16.06.19:326][336]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2016.07.21-16.06.19:635][336]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2016.07.21-16.06.19:643][336]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2016.07.21-16.06.19:650][336]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2016.07.21-16.06.19:652][336]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2016.07.21-16.06.19:654][336]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2016.07.21-16.06.19:656][336]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2016.07.21-16.06.19:659][336]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2016.07.21-16.06.19:662][336]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2016.07.21-16.06.19:666][336]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2016.07.21-16.06.19:687][336]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2016.07.21-16.06.19:741][336]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2016.07.21-16.06.19:746][336]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2016.07.21-16.06.19:750][336]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2016.07.21-16.06.19:754][336]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2016.07.21-16.06.19:759][336]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2016.07.21-16.06.19:763][336]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8)
+[2016.07.21-16.06.19:765][336]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8)
+[2016.07.21-16.06.19:767][336]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8)
+[2016.07.21-16.06.19:769][336]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8)
+[2016.07.21-16.06.19:771][336]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8)
+[2016.07.21-16.06.19:825][336]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.07.21-16.06.20:113][336]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2016.07.21-16.06.20:168][336]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8)
+[2016.07.21-16.06.20:170][336]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (G8)
+[2016.07.21-16.06.20:177][336]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (G8)
+[2016.07.21-16.06.20:182][336]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8)
+[2016.07.21-16.06.20:191][336]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8)
+[2016.07.21-16.06.20:193][336]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8)
+[2016.07.21-16.06.20:198][336]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2016.07.21-16.06.20:210][336]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2016.07.21-16.06.20:214][336]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2016.07.21-16.06.20:234][336]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2016.07.21-16.06.20:293][336]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2016.07.21-16.06.20:299][336]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2016.07.21-16.06.20:320][336]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (G8)
+[2016.07.21-16.06.20:323][336]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (G8)
+[2016.07.21-16.06.20:325][336]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (G8)
+[2016.07.21-16.06.20:329][336]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (G8)
+[2016.07.21-16.06.20:334][336]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (G8)
+[2016.07.21-16.06.20:339][336]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8)
+[2016.07.21-16.06.20:348][336]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (G8)
+[2016.07.21-16.06.20:351][336]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (G8)
+[2016.07.21-16.06.20:419][336]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2016.07.21-16.06.20:800][336]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (G8)
+[2016.07.21-16.06.20:807][336]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (G8)
+[2016.07.21-16.06.20:811][336]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (G8)
+[2016.07.21-16.06.20:815][336]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (G8)
+[2016.07.21-16.06.20:831][336]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (G8)
+[2016.07.21-16.06.20:833][336]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (G8)
+[2016.07.21-16.06.20:837][336]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (G8)
+[2016.07.21-16.06.20:839][336]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (G8)
+[2016.07.21-16.06.20:841][336]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (G8)
+[2016.07.21-16.06.20:843][336]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (G8)
+[2016.07.21-16.06.20:862][336]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2016.07.21-16.06.20:925][336]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (BGRA8)
+[2016.07.21-16.06.20:931][336]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (BGRA8)
+[2016.07.21-16.06.20:940][336]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (BGRA8)
+[2016.07.21-16.06.20:950][336]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (BGRA8)
+[2016.07.21-16.06.20:977][336]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (BGRA8)
+[2016.07.21-16.06.20:981][336]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (BGRA8)
+[2016.07.21-16.06.20:984][336]LogTexture:Display: Building textures: ShadowMapTexture2D_66 (BGRA8)
+[2016.07.21-16.06.20:994][336]LogTexture:Display: Building textures: ShadowMapTexture2D_67 (G8)
+[2016.07.21-16.06.21:011][336]LogTexture:Display: Building textures: ShadowMapTexture2D_68 (BGRA8)
+[2016.07.21-16.06.21:023][336]LogTexture:Display: Building textures: ShadowMapTexture2D_69 (BGRA8)
+[2016.07.21-16.06.21:038][336]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2016.07.21-16.06.21:118][336]LogTexture:Display: Building textures: ShadowMapTexture2D_70 (G8)
+[2016.07.21-16.06.21:131][336]LogTexture:Display: Building textures: ShadowMapTexture2D_71 (BGRA8)
+[2016.07.21-16.06.21:135][336]LogTexture:Display: Building textures: ShadowMapTexture2D_72 (G8)
+[2016.07.21-16.06.21:139][336]LogTexture:Display: Building textures: ShadowMapTexture2D_73 (G8)
+[2016.07.21-16.06.21:140][336]LogTexture:Display: Building textures: ShadowMapTexture2D_74 (G8)
+[2016.07.21-16.06.21:141][336]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2016.07.21-16.06.21:147][336]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2016.07.21-16.06.21:492][336]LogStaticMesh: Building static mesh SM_WaterPlain...
+[2016.07.21-16.06.21:790][336]LogStaticMesh: Built static mesh [0.30s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Terrain/SM_WaterPlain.SM_WaterPlain
+[2016.07.21-16.06.21:960][336]MapCheck: Info EditorPlane_4 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.21:961][336]LogStaticMesh: Building static mesh S_Env_Ice_Deco2_flag5...
+[2016.07.21-16.06.21:966][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/S_Env_Ice_Deco2_flag5.S_Env_Ice_Deco2_flag5
+[2016.07.21-16.06.21:966][336]LogStaticMesh: Building static mesh SM_Env_ALL_Terminus009...
+[2016.07.21-16.06.22:019][336]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeIceLands/Environments/Misc/Env_ALL_Artifacts/StaticMesh/SM_Env_ALL_Terminus009.SM_Env_ALL_Terminus009
+[2016.07.21-16.06.22:021][336]LogStaticMesh: Building static mesh SM_Env_Fire_OddsnEnds_Floor3a...
+[2016.07.21-16.06.22:028][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Env_Fire_OddsnEnds_Floor3a.SM_Env_Fire_OddsnEnds_Floor3a
+[2016.07.21-16.06.22:028][336]LogStaticMesh: Building static mesh SM_Env_Fire_OddsnEnds_FloorPath2a...
+[2016.07.21-16.06.22:035][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Env_Fire_OddsnEnds_FloorPath2a.SM_Env_Fire_OddsnEnds_FloorPath2a
+[2016.07.21-16.06.22:037][336]LogStaticMesh: Building static mesh SM_Env_Ice_Crystals...
+[2016.07.21-16.06.22:053][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Crystals.SM_Env_Ice_Crystals
+[2016.07.21-16.06.22:054][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Barrel1...
+[2016.07.21-16.06.22:161][336]LogStaticMesh: Built static mesh [0.11s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Barrel1.SM_Env_Ice_Deco2_Barrel1
+[2016.07.21-16.06.22:162][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Boxes1...
+[2016.07.21-16.06.22:165][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Boxes1.SM_Env_Ice_Deco2_Boxes1
+[2016.07.21-16.06.22:165][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Barrel2...
+[2016.07.21-16.06.22:169][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Barrel2.SM_Env_Ice_Deco2_Barrel2
+[2016.07.21-16.06.22:169][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Box1...
+[2016.07.21-16.06.22:171][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Box1.SM_Env_Ice_Deco2_Box1
+[2016.07.21-16.06.22:171][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_BoxesBroken...
+[2016.07.21-16.06.22:237][336]LogStaticMesh: Built static mesh [0.07s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_BoxesBroken.SM_Env_Ice_Deco2_BoxesBroken
+[2016.07.21-16.06.22:239][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_bucket2...
+[2016.07.21-16.06.22:249][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_bucket2.SM_Env_Ice_Deco2_bucket2
+[2016.07.21-16.06.22:249][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_bucket...
+[2016.07.21-16.06.22:256][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_bucket.SM_Env_Ice_Deco2_bucket
+[2016.07.21-16.06.22:256][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_firepit...
+[2016.07.21-16.06.22:408][336]LogStaticMesh: Built static mesh [0.15s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_firepit.SM_Env_Ice_Deco2_firepit
+[2016.07.21-16.06.22:408][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_flag2...
+[2016.07.21-16.06.22:411][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_flag2.SM_Env_Ice_Deco2_flag2
+[2016.07.21-16.06.22:412][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_flag5...
+[2016.07.21-16.06.22:416][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_flag5.SM_Env_Ice_Deco2_flag5
+[2016.07.21-16.06.22:418][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_LargeSacks...
+[2016.07.21-16.06.22:799][336]LogStaticMesh: Built static mesh [0.38s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_LargeSacks.SM_Env_Ice_Deco2_LargeSacks
+[2016.07.21-16.06.22:800][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Log...
+[2016.07.21-16.06.22:874][336]LogStaticMesh: Built static mesh [0.07s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Log.SM_Env_Ice_Deco2_Log
+[2016.07.21-16.06.22:874][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Pots...
+[2016.07.21-16.06.22:925][336]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Pots.SM_Env_Ice_Deco2_Pots
+[2016.07.21-16.06.22:925][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Rock4...
+[2016.07.21-16.06.22:927][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Rock4.SM_Env_Ice_Deco2_Rock4
+[2016.07.21-16.06.22:927][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Rock8...
+[2016.07.21-16.06.22:928][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Rock8.SM_Env_Ice_Deco2_Rock8
+[2016.07.21-16.06.22:929][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Statue2...
+[2016.07.21-16.06.23:140][336]LogStaticMesh: Built static mesh [0.21s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Statue2.SM_Env_Ice_Deco2_Statue2
+[2016.07.21-16.06.23:142][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Statue3...
+[2016.07.21-16.06.23:282][336]LogStaticMesh: Built static mesh [0.14s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Statue3.SM_Env_Ice_Deco2_Statue3
+[2016.07.21-16.06.23:284][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Stones2...
+[2016.07.21-16.06.23:325][336]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Stones2.SM_Env_Ice_Deco2_Stones2
+[2016.07.21-16.06.23:337][336]LogStaticMesh: Building static mesh SM_Env_Ice_Deco2_Stones...
+[2016.07.21-16.06.23:380][336]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco2/StaticMesh/SM_Env_Ice_Deco2_Stones.SM_Env_Ice_Deco2_Stones
+[2016.07.21-16.06.23:381][336]LogStaticMesh: Building static mesh SM_Env_Ice_MelancholicTroll01...
+[2016.07.21-16.06.23:400][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_MelancholicTroll01.SM_Env_Ice_MelancholicTroll01
+[2016.07.21-16.06.23:401][336]LogStaticMesh: Building static mesh SM_Env_Ice_MelancholicTroll03...
+[2016.07.21-16.06.23:409][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_MelancholicTroll03.SM_Env_Ice_MelancholicTroll03
+[2016.07.21-16.06.23:410][336]LogStaticMesh: Building static mesh SM_Env_Ice_NordHeed01...
+[2016.07.21-16.06.23:518][336]LogStaticMesh: Built static mesh [0.11s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_NordHeed01.SM_Env_Ice_NordHeed01
+[2016.07.21-16.06.23:518][336]LogStaticMesh: Building static mesh SM_Env_Ice_NordRock02...
+[2016.07.21-16.06.23:529][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_NordRock02.SM_Env_Ice_NordRock02
+[2016.07.21-16.06.23:529][336]LogStaticMesh: Building static mesh SM_Env_Ice_PillarArch001...
+[2016.07.21-16.06.23:573][336]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_PillarArch001.SM_Env_Ice_PillarArch001
+[2016.07.21-16.06.23:574][336]LogStaticMesh: Building static mesh SM_Env_Ice_RockyStairs01...
+[2016.07.21-16.06.23:594][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_RockyStairs01.SM_Env_Ice_RockyStairs01
+[2016.07.21-16.06.23:616][336]LogStaticMesh: Building static mesh SM_Env_Ice_RockyStairs02...
+[2016.07.21-16.06.23:630][336]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_RockyStairs02.SM_Env_Ice_RockyStairs02
+[2016.07.21-16.06.23:630][336]LogStaticMesh: Building static mesh SM_Env_Ice_RockyStairs03...
+[2016.07.21-16.06.23:752][336]LogStaticMesh: Built static mesh [0.12s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_RockyStairs03.SM_Env_Ice_RockyStairs03
+[2016.07.21-16.06.23:752][336]LogStaticMesh: Building static mesh SM_Env_Ice_RuinedSteps001...
+[2016.07.21-16.06.23:799][336]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_RuinedSteps001.SM_Env_Ice_RuinedSteps001
+[2016.07.21-16.06.23:800][336]LogStaticMesh: Building static mesh SM_Env_Ice_RuinedWalls003...
+[2016.07.21-16.06.23:827][336]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_RuinedWalls003.SM_Env_Ice_RuinedWalls003
+[2016.07.21-16.06.23:828][336]LogStaticMesh: Building static mesh SM_Env_Ice_Weetower001...
+[2016.07.21-16.06.23:848][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Rocky/StaticMesh/SM_Env_Ice_Weetower001.SM_Env_Ice_Weetower001
+[2016.07.21-16.06.23:849][336]LogStaticMesh: Building static mesh SM_Env_Plains_Scrap_Bridge_2...
+[2016.07.21-16.06.23:860][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Env_Plains_Scrap_Bridge_2.SM_Env_Plains_Scrap_Bridge_2
+[2016.07.21-16.06.23:861][336]LogStaticMesh: Building static mesh SM_EnvAssets_Barrel1...
+[2016.07.21-16.06.23:965][336]LogStaticMesh: Built static mesh [0.10s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EnvAssets_Barrel1.SM_EnvAssets_Barrel1
+[2016.07.21-16.06.23:965][336]LogStaticMesh: Building static mesh SM_EnvAssets_Rock8...
+[2016.07.21-16.06.23:972][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EnvAssets_Rock8.SM_EnvAssets_Rock8
+[2016.07.21-16.06.23:972][336]LogStaticMesh: Building static mesh SM_EnvAssets_Rock7...
+[2016.07.21-16.06.23:978][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EnvAssets_Rock7.SM_EnvAssets_Rock7
+[2016.07.21-16.06.23:978][336]LogStaticMesh: Building static mesh SM_EnvAssets_Rock1...
+[2016.07.21-16.06.23:983][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EnvAssets_Rock1.SM_EnvAssets_Rock1
+[2016.07.21-16.06.23:984][336]LogStaticMesh: Building static mesh SM_EnvAssets_Rock2...
+[2016.07.21-16.06.23:990][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EnvAssets_Rock2.SM_EnvAssets_Rock2
+[2016.07.21-16.06.23:990][336]LogStaticMesh: Building static mesh SM_EnvAssets_Rock5...
+[2016.07.21-16.06.23:995][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EnvAssets_Rock5.SM_EnvAssets_Rock5
+[2016.07.21-16.06.23:996][336]LogStaticMesh: Building static mesh SM_EX_BrokenEnd_Top_VTile_001...
+[2016.07.21-16.06.24:038][336]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_RockyRuins/StaticMesh/SM_EX_BrokenEnd_Top_VTile_001.SM_EX_BrokenEnd_Top_VTile_001
+[2016.07.21-16.06.24:040][336]LogStaticMesh: Building static mesh SM_EX_EnvAssets_LargeSack...
+[2016.07.21-16.06.24:053][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EX_EnvAssets_LargeSack.SM_EX_EnvAssets_LargeSack
+[2016.07.21-16.06.24:054][336]LogStaticMesh: Building static mesh SM_EX_EnvAssets_sacks...
+[2016.07.21-16.06.24:082][336]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/EX_EnvAssets/Meshes/SM_EX_EnvAssets_sacks.SM_EX_EnvAssets_sacks
+[2016.07.21-16.06.24:083][336]LogStaticMesh: Building static mesh SM_Ex_Rune_Stone_1...
+[2016.07.21-16.06.24:085][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/EX_Env_Ice_1/StaticMesh/SM_Ex_Rune_Stone_1.SM_Ex_Rune_Stone_1
+[2016.07.21-16.06.24:085][336]LogStaticMesh: Building static mesh SM_Exo_Cart_Damaged...
+[2016.07.21-16.06.24:111][336]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Cart_Damaged.SM_Exo_Cart_Damaged
+[2016.07.21-16.06.24:112][336]LogStaticMesh: Building static mesh SM_Exo_Crate_Open_Damaged...
+[2016.07.21-16.06.24:121][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Crate_Open_Damaged.SM_Exo_Crate_Open_Damaged
+[2016.07.21-16.06.24:121][336]LogStaticMesh: Building static mesh SM_Exo_Stone01...
+[2016.07.21-16.06.24:122][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Stone01.SM_Exo_Stone01
+[2016.07.21-16.06.24:122][336]LogStaticMesh: Building static mesh SM_Exo_Stone01_ChainOnly...
+[2016.07.21-16.06.24:138][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Stone01_ChainOnly.SM_Exo_Stone01_ChainOnly
+[2016.07.21-16.06.24:139][336]LogStaticMesh: Building static mesh SM_FlameDungeon_largeRocks...
+[2016.07.21-16.06.24:480][336]LogStaticMesh: Built static mesh [0.34s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Cliffs/StaticMesh/SM_FlameDungeon_largeRocks.SM_FlameDungeon_largeRocks
+[2016.07.21-16.06.24:483][336]LogStaticMesh: Building static mesh SM_Ice_Chunk_3...
+[2016.07.21-16.06.24:501][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Chunk_3.SM_Ice_Chunk_3
+[2016.07.21-16.06.24:502][336]LogStaticMesh: Building static mesh SM_Ice_Chunk_4...
+[2016.07.21-16.06.24:506][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Chunk_4.SM_Ice_Chunk_4
+[2016.07.21-16.06.24:506][336]LogStaticMesh: Building static mesh SM_Ice_Chunk_5...
+[2016.07.21-16.06.24:519][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Chunk_5.SM_Ice_Chunk_5
+[2016.07.21-16.06.24:520][336]LogStaticMesh: Building static mesh SM_Ice_Chunk_2...
+[2016.07.21-16.06.24:530][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Chunk_2.SM_Ice_Chunk_2
+[2016.07.21-16.06.24:531][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Brazier_1_Glow...
+[2016.07.21-16.06.24:545][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Brazier_1_Glow.SM_Ice_Fort_Brazier_1_Glow
+[2016.07.21-16.06.24:545][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Brazier_2...
+[2016.07.21-16.06.24:569][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Brazier_2.SM_Ice_Fort_Brazier_2
+[2016.07.21-16.06.24:569][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Bricks_3...
+[2016.07.21-16.06.24:619][336]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Bricks_3.SM_Ice_Fort_Bricks_3
+[2016.07.21-16.06.24:619][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Bricks_1...
+[2016.07.21-16.06.24:653][336]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Bricks_1.SM_Ice_Fort_Bricks_1
+[2016.07.21-16.06.24:653][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Bricks_2...
+[2016.07.21-16.06.24:670][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Bricks_2.SM_Ice_Fort_Bricks_2
+[2016.07.21-16.06.24:671][336]MapCheck: Info SM_Ice_Fort_Bricks_547 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.24:672][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Door_1...
+[2016.07.21-16.06.24:705][336]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Door_1.SM_Ice_Fort_Door_1
+[2016.07.21-16.06.24:706][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Floor_1...
+[2016.07.21-16.06.24:709][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Floor_1.SM_Ice_Fort_Floor_1
+[2016.07.21-16.06.24:709][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Floor_3c...
+[2016.07.21-16.06.24:796][336]LogStaticMesh: Built static mesh [0.09s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Floor_3c.SM_Ice_Fort_Floor_3c
+[2016.07.21-16.06.24:800][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Floor_3d...
+[2016.07.21-16.06.24:805][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Floor_3d.SM_Ice_Fort_Floor_3d
+[2016.07.21-16.06.24:805][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Floor_3e...
+[2016.07.21-16.06.24:806][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Floor_3e.SM_Ice_Fort_Floor_3e
+[2016.07.21-16.06.24:807][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Iron_Trim_3...
+[2016.07.21-16.06.24:811][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Iron_Trim_3.SM_Ice_Fort_Iron_Trim_3
+[2016.07.21-16.06.24:811][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Iron_Trim_6...
+[2016.07.21-16.06.24:830][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Iron_Trim_6.SM_Ice_Fort_Iron_Trim_6
+[2016.07.21-16.06.24:830][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Iron_Trim_2...
+[2016.07.21-16.06.24:833][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Iron_Trim_2.SM_Ice_Fort_Iron_Trim_2
+[2016.07.21-16.06.24:834][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Pillar_2...
+[2016.07.21-16.06.24:836][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Pillar_2.SM_Ice_Fort_Pillar_2
+[2016.07.21-16.06.24:836][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Pillar_1b...
+[2016.07.21-16.06.24:841][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Pillar_1b.SM_Ice_Fort_Pillar_1b
+[2016.07.21-16.06.24:841][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Pillar_1f...
+[2016.07.21-16.06.24:841][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Pillar_1f.SM_Ice_Fort_Pillar_1f
+[2016.07.21-16.06.24:841][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Pillar_4...
+[2016.07.21-16.06.24:857][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Pillar_4.SM_Ice_Fort_Pillar_4
+[2016.07.21-16.06.24:857][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Pillar_2b...
+[2016.07.21-16.06.24:864][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Pillar_2b.SM_Ice_Fort_Pillar_2b
+[2016.07.21-16.06.24:865][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Pillar_4b...
+[2016.07.21-16.06.24:873][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Pillar_4b.SM_Ice_Fort_Pillar_4b
+[2016.07.21-16.06.24:874][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Pillar_4c...
+[2016.07.21-16.06.24:880][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Pillar_4c.SM_Ice_Fort_Pillar_4c
+[2016.07.21-16.06.24:881][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Stair_2...
+[2016.07.21-16.06.24:884][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Stair_2.SM_Ice_Fort_Stair_2
+[2016.07.21-16.06.24:884][336]LogStaticMesh: Building static mesh SM_Ice_Fort_Stair_1_Trim...
+[2016.07.21-16.06.24:885][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Fortress/StaticMesh/SM_Ice_Fort_Stair_1_Trim.SM_Ice_Fort_Stair_1_Trim
+[2016.07.21-16.06.24:885][336]LogStaticMesh: Building static mesh SM_ICE_Outside_JaggedCliff04...
+[2016.07.21-16.06.25:003][336]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.21-16.06.25:085][336]LogStaticMesh: Built static mesh [0.20s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/StaticMesh/SM_ICE_Outside_JaggedCliff04.SM_ICE_Outside_JaggedCliff04
+[2016.07.21-16.06.25:087][336]LogStaticMesh: Building static mesh SM_ICE_Outside_JaggedCliff05...
+[2016.07.21-16.06.25:114][336]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.21-16.06.25:165][336]LogStaticMesh: Built static mesh [0.08s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/StaticMesh/SM_ICE_Outside_JaggedCliff05.SM_ICE_Outside_JaggedCliff05
+[2016.07.21-16.06.25:165][336]LogStaticMesh: Building static mesh SM_ICE_Outside_Mountain2...
+[2016.07.21-16.06.25:225][336]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.21-16.06.25:347][336]LogStaticMesh: Built static mesh [0.18s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/StaticMesh/SM_ICE_Outside_Mountain2.SM_ICE_Outside_Mountain2
+[2016.07.21-16.06.25:348][336]LogStaticMesh: Building static mesh SM_IceT3_BossWalls_03...
+[2016.07.21-16.06.25:392][336]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_BossWalls_03.SM_IceT3_BossWalls_03
+[2016.07.21-16.06.25:394][336]MapCheck: Info SM_IceT3_BossWalls_03_357 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:395][336]LogStaticMesh: Building static mesh SM_IceT3_BossWalls_03c...
+[2016.07.21-16.06.25:410][336]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_BossWalls_03c.SM_IceT3_BossWalls_03c
+[2016.07.21-16.06.25:410][336]LogStaticMesh: Building static mesh SM_IceT3_IceRock_01...
+[2016.07.21-16.06.25:415][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_IceRock_01.SM_IceT3_IceRock_01
+[2016.07.21-16.06.25:415][336]LogStaticMesh: Building static mesh SM_IceT3_RopeBridge_01...
+[2016.07.21-16.06.25:426][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_RopeBridge_01.SM_IceT3_RopeBridge_01
+[2016.07.21-16.06.25:426][336]LogStaticMesh: Building static mesh SM_IceT3_Tiles_02...
+[2016.07.21-16.06.25:521][336]LogStaticMesh: Built static mesh [0.09s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Tiles_02.SM_IceT3_Tiles_02
+[2016.07.21-16.06.25:521][336]LogStaticMesh: Building static mesh SM_IceT3_Tiles_03...
+[2016.07.21-16.06.25:561][336]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Tiles_03.SM_IceT3_Tiles_03
+[2016.07.21-16.06.25:564][336]LogStaticMesh: Building static mesh SM_IceT3_Tiles_04...
+[2016.07.21-16.06.25:615][336]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Tiles_04.SM_IceT3_Tiles_04
+[2016.07.21-16.06.25:616][336]MapCheck: Info SM_IceT3_Tiles_04_444 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:617][336]MapCheck: Info SM_IceT3_Tiles_12 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:617][336]MapCheck: Info SM_IceT3_Tiles_22 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:618][336]MapCheck: Info SM_IceT3_Tiles_35 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:618][336]MapCheck: Info SM_IceT3_Tiles_438 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:619][336]MapCheck: Info SM_IceT3_Tiles_447 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:619][336]MapCheck: Info SM_IceT3_Tiles_793 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:620][336]MapCheck: Info SM_IceT3_Tiles_881 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:620][336]MapCheck: Info SM_IceT3_Tiles_890 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:621][336]MapCheck: Info SM_IceT3_Tiles_893 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:621][336]MapCheck: Info SM_IceT3_Walkway_01_448 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:622][336]MapCheck: Info SM_IceT3_Walkway_01b_13 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:622][336]MapCheck: Info SM_IceT3_Walkway_01b_15 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:622][336]MapCheck: Info SM_IceT3_Walkway_01b_272 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:623][336]MapCheck: Info SM_IceT3_Walkway_01b_57 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:624][336]MapCheck: Info SM_IceT3_Walkway_01b_80 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:624][336]MapCheck: Info SM_IceT3_Walkway_01c2 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:624][336]MapCheck: Info SM_IceT3_Walkway_01c3 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:625][336]MapCheck: Info SM_IceT3_Walkway_01c_184 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:625][336]MapCheck: Info SM_IceT3_Walkway_01c_266 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:626][336]MapCheck: Info SM_IceT3_Walkway_01c_418 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:629][336]MapCheck: Info SM_IceT3_Walkway_02b_181 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:632][336]MapCheck: Info SM_IceT3_Walkway_02b_2 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:633][336]MapCheck: Info SM_IceT3_Walkway_03b_2 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:634][336]LogStaticMesh: Building static mesh SM_IceT3_Walkway_04b...
+[2016.07.21-16.06.25:743][336]LogStaticMesh: Built static mesh [0.11s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_Walkway_04b.SM_IceT3_Walkway_04b
+[2016.07.21-16.06.25:744][336]MapCheck: Info SM_IceT3_Walkway_04b_178 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:746][336]MapCheck: Info SM_IceT3_Walkway_04b_19 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:747][336]MapCheck: Info SM_IceT3_Walkway_10 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:748][336]MapCheck: Info SM_IceT3_Walkway_14 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:748][336]MapCheck: Info SM_IceT3_Walkway_255 StaticMeshComponent0 : Repaired painted vertex colors (slow loading, can be fixed by saving /Game/InfinityBladeIceLands/Maps/FrozenCove) 
+[2016.07.21-16.06.25:748][336]LogStaticMesh: Building static mesh SM_IceWallSpikes...
+[2016.07.21-16.06.26:039][336]LogStaticMesh: Built static mesh [0.29s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco/StaticMesh/SM_IceWallSpikes.SM_IceWallSpikes
+[2016.07.21-16.06.26:041][336]LogStaticMesh: Building static mesh SM_IceWallSpikes_Broken...
+[2016.07.21-16.06.26:157][336]LogStaticMesh: Built static mesh [0.12s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Deco/StaticMesh/SM_IceWallSpikes_Broken.SM_IceWallSpikes_Broken
+[2016.07.21-16.06.26:158][336]LogStaticMesh: Building static mesh SM_Mountain_Straight_C...
+[2016.07.21-16.06.26:165][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_MountainPaths/StaticMesh/SM_Mountain_Straight_C.SM_Mountain_Straight_C
+[2016.07.21-16.06.26:167][336]LogStaticMesh: Building static mesh SM_Mountain_Straight_Offshoot_B...
+[2016.07.21-16.06.26:174][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_MountainPaths/StaticMesh/SM_Mountain_Straight_Offshoot_B.SM_Mountain_Straight_Offshoot_B
+[2016.07.21-16.06.26:174][336]LogStaticMesh: Building static mesh SM_Plains_Floors_Rubble02...
+[2016.07.21-16.06.26:184][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble02.SM_Plains_Floors_Rubble02
+[2016.07.21-16.06.26:185][336]LogStaticMesh: Building static mesh SM_Plains_Floors_Rubble04...
+[2016.07.21-16.06.26:193][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble04.SM_Plains_Floors_Rubble04
+[2016.07.21-16.06.26:194][336]LogStaticMesh: Building static mesh SM_Plains_Floors_Rubble05...
+[2016.07.21-16.06.26:195][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble05.SM_Plains_Floors_Rubble05
+[2016.07.21-16.06.26:196][336]LogStaticMesh: Building static mesh SM_REL_Battlement_Support_Corner_001...
+[2016.07.21-16.06.26:228][336]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_RockyRuins/StaticMesh/SM_REL_Battlement_Support_Corner_001.SM_REL_Battlement_Support_Corner_001
+[2016.07.21-16.06.26:229][336]LogStaticMesh: Building static mesh SM_Snowy_Grass...
+[2016.07.21-16.06.26:232][336]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeIceLands/Environments/Ice/DR_Ice_Mountain/StaticMesh/SM_Snowy_Grass.SM_Snowy_Grass
+[2016.07.21-16.06.26:233][336]LogStaticMesh: Building static mesh SM_Snowy_Pathway...
+[2016.07.21-16.06.26:346][336]LogStaticMesh: Built static mesh [0.11s] /Game/InfinityBladeIceLands/Environments/Ice/DR_Ice_Mountain/StaticMesh/SM_Snowy_Pathway.SM_Snowy_Pathway
+[2016.07.21-16.06.26:349][336]LogStaticMesh: Building static mesh SM_Statue01...
+[2016.07.21-16.06.26:711][336]LogStaticMesh: Built static mesh [0.36s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_RockyRuins/StaticMesh/SM_Statue01.SM_Statue01
+[2016.07.21-16.06.26:712][336]LogStaticMesh: Building static mesh SM_White_Dead_Tree...
+[2016.07.21-16.06.26:726][336]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeIceLands/Environments/Ice/DR_Ice_Mountain/StaticMesh/SM_White_Dead_Tree.SM_White_Dead_Tree
+[2016.07.21-16.06.26:727][336]LogStaticMesh: Building static mesh SM_WoodenBarrel_Damaged...
+[2016.07.21-16.06.26:856][336]LogStaticMesh: Built static mesh [0.13s] /Game/InfinityBladeIceLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_WoodenBarrel_Damaged.SM_WoodenBarrel_Damaged
+[2016.07.21-16.06.26:860][336]LogMaterial: Missing cached shader map for material M_Ice_VertPaint, compiling. 
+[2016.07.21-16.06.30:426][336]LogTexture:Display: Building textures: T_Env_Ice_RockStairs_D (AutoDXT)
+[2016.07.21-16.06.37:118][336]LogTexture:Display: Building textures: T_Env_Ice_RockStairs_N (BC5)
+[2016.07.21-16.06.38:023][336]LogMaterial: Missing cached shader map for material M_Env_Ice_RockyStairs, compiling. 
+[2016.07.21-16.06.38:074][336]LogTexture:Display: Building textures: T_Exo_Hay_N (AutoDXT)
+[2016.07.21-16.06.38:172][336]LogText
